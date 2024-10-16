@@ -1,14 +1,12 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
+import { useState } from "react";
 
 export default function PricingTables() {
+  const [annual, setAnnual] = useState<boolean>(true);
 
-  const [annual, setAnnual] = useState<boolean>(true)
-  
   return (
     <div>
-
       {/* Pricing toggle */}
       <div className="flex justify-center items-center space-x-4 sm:space-x-7 mb-16">
         <div className="text-sm text-slate-500 font-medium text-right min-w-[8rem]">Pay Monthly</div>
@@ -19,18 +17,19 @@ export default function PricingTables() {
             <span className="sr-only">Pay annually</span>
           </label>
         </div>
-        <div className="text-sm text-slate-500 font-medium min-w-[8rem]">Pay Yearly <span className="text-emerald-500">(-20%)</span></div>
+        <div className="text-sm text-slate-500 font-medium min-w-[8rem]">
+          Pay Yearly <span className="text-emerald-500">(-20%)</span>
+        </div>
       </div>
 
       <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none pt-4">
-
         {/* Pricing table 1 */}
         <div className="relative flex flex-col h-full px-6 py-5 bg-white shadow-lg" data-aos="fade-up">
           <div className="mb-4 pb-4 border-b border-slate-200">
             <div className="text-lg font-semibold text-slate-800 mb-1">Essential</div>
             <div className="inline-flex items-baseline mb-3">
               <span className="h3 font-medium text-slate-500">$</span>
-              <span className="h2 leading-7 font-playfair-display text-slate-800">{annual ? '49' : '55'}</span>
+              <span className="h2 leading-7 font-quicksand text-slate-800">{annual ? "49" : "55"}</span>
               <span className="font-medium text-slate-400">/mo</span>
             </div>
             <div className="text-slate-500">Better insights for growing businesses that want more customers.</div>
@@ -64,7 +63,8 @@ export default function PricingTables() {
           </ul>
           <div className="p-3 rounded bg-slate-50">
             <a className="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full group" href="#0">
-              Start free trial <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              Start free trial{" "}
+              <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
             </a>
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function PricingTables() {
             <div className="text-lg font-semibold text-slate-800 mb-1">Premium</div>
             <div className="inline-flex items-baseline mb-3">
               <span className="h3 font-medium text-slate-500">$</span>
-              <span className="h2 leading-7 font-playfair-display text-slate-800">{annual ? '79' : '85'}</span>
+              <span className="h2 leading-7 font-quicksand text-slate-800">{annual ? "79" : "85"}</span>
               <span className="font-medium text-slate-400">/mo</span>
             </div>
             <div className="text-slate-500">Better insights for growing businesses that want more customers.</div>
@@ -118,7 +118,8 @@ export default function PricingTables() {
           </ul>
           <div className="p-3 rounded bg-slate-50">
             <a className="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full group" href="#0">
-              Start free trial <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              Start free trial{" "}
+              <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
             </a>
           </div>
         </div>
@@ -129,7 +130,7 @@ export default function PricingTables() {
             <div className="text-lg font-semibold text-slate-800 mb-1">Advanced</div>
             <div className="inline-flex items-baseline mb-3">
               <span className="h3 font-medium text-slate-500">$</span>
-              <span className="h2 leading-7 font-playfair-display text-slate-800">{annual ? '129' : '135'}</span>
+              <span className="h2 leading-7 font-quicksand text-slate-800">{annual ? "129" : "135"}</span>
               <span className="font-medium text-slate-400">/mo</span>
             </div>
             <div className="text-slate-500">Better insights for growing businesses that want more customers.</div>
@@ -175,13 +176,12 @@ export default function PricingTables() {
           </ul>
           <div className="p-3 rounded bg-slate-50">
             <a className="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full group" href="#0">
-              Start free trial <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              Start free trial{" "}
+              <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
             </a>
           </div>
         </div>
-
       </div>
-
     </div>
-  )
+  );
 }

@@ -1,46 +1,48 @@
-'use client'
+"use client";
 
-import { useState, useRef, useEffect } from 'react'
-import Image from 'next/image'
-import { Transition } from '@headlessui/react'
-import FeaturesImage from '@/public/images/features-home-01.jpg'
+import { useState, useRef, useEffect } from "react";
+import Image from "next/image";
+import { Transition } from "@headlessui/react";
+import FeaturesImage from "@/public/images/features-home-01.jpg";
 
 export default function FeaturesHome() {
+  const [tab, setTab] = useState<number>(1);
 
-  const [tab, setTab] = useState<number>(1)
-
-  const tabs = useRef<HTMLDivElement>(null)
+  const tabs = useRef<HTMLDivElement>(null);
 
   const heightFix = () => {
-    if (tabs.current && tabs.current.parentElement) tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`
-  }
+    if (tabs.current && tabs.current.parentElement) tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`;
+  };
 
   useEffect(() => {
-    heightFix()
-  }, []) 
+    heightFix();
+  }, []);
 
   return (
     <section className="relative">
-
       <div className="absolute inset-0 bg-slate-100 pointer-events-none mb-64 md:mb-80" aria-hidden="true"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
-
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Built exclusively for you</h2>
-            <p className="text-xl text-slate-768">Excepteur s474 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+            <h2 className="h2 font-quicksand text-slate-800 mb-4">Built exclusively for you</h2>
+            <p className="text-xl text-slate-768">
+              Excepteur s474 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at
+              volutpat diam ut venenatis.
+            </p>
           </div>
 
           {/* Section content */}
           <div className="max-w-3xl mx-auto">
-
             {/* Tabs buttons */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 pb-12">
               <button
-                className={`text-center transition-opacity ${tab !== 1 && 'opacity-50 hover:opacity-75'}`}
-                onClick={(e) => { e.preventDefault(); setTab(1); }}
+                className={`text-center transition-opacity ${tab !== 1 && "opacity-50 hover:opacity-75"}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setTab(1);
+                }}
               >
                 <div>
                   <div className="inline-flex bg-white rounded-full shadow-md mb-3">
@@ -53,8 +55,11 @@ export default function FeaturesHome() {
                 </div>
               </button>
               <button
-                className={`text-center transition-opacity ${tab !== 2 && 'opacity-50 hover:opacity-75'}`}
-                onClick={(e) => { e.preventDefault(); setTab(2); }}
+                className={`text-center transition-opacity ${tab !== 2 && "opacity-50 hover:opacity-75"}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setTab(2);
+                }}
               >
                 <div>
                   <div className="inline-flex bg-white rounded-full shadow-md mb-3">
@@ -67,8 +72,11 @@ export default function FeaturesHome() {
                 </div>
               </button>
               <button
-                className={`text-center transition-opacity ${tab !== 3 && 'opacity-50 hover:opacity-75'}`}
-                onClick={(e) => { e.preventDefault(); setTab(3); }}
+                className={`text-center transition-opacity ${tab !== 3 && "opacity-50 hover:opacity-75"}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setTab(3);
+                }}
               >
                 <div>
                   <div className="inline-flex bg-white rounded-full shadow-md mb-3">
@@ -83,8 +91,11 @@ export default function FeaturesHome() {
                 </div>
               </button>
               <button
-                className={`text-center transition-opacity ${tab !== 4 && 'opacity-50 hover:opacity-75'}`}
-                onClick={(e) => { e.preventDefault(); setTab(4); }}
+                className={`text-center transition-opacity ${tab !== 4 && "opacity-50 hover:opacity-75"}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setTab(4);
+                }}
               >
                 <div>
                   <div className="inline-flex bg-white rounded-full shadow-md mb-3">
@@ -163,11 +174,9 @@ export default function FeaturesHome() {
                 </Transition>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }

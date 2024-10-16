@@ -1,38 +1,35 @@
-'use client'
+"use client";
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect } from "react";
 
 type AccordionpProps = {
-  children: React.ReactNode
-  tag?: string
-  title: string
-  active?: boolean
-}
+  children: React.ReactNode;
+  tag?: string;
+  title: string;
+  active?: boolean;
+};
 
-export default function Accordion({
-  children,
-  tag = 'li',
-  title,
-  active = false
-}: AccordionpProps) {
-
-  const [accordionOpen, setAccordionOpen] = useState<boolean>(false)
-  const accordion = useRef<HTMLDivElement>(null)
-  const Component = tag as keyof JSX.IntrinsicElements
+export default function Accordion({ children, tag = "li", title, active = false }: AccordionpProps) {
+  const [accordionOpen, setAccordionOpen] = useState<boolean>(false);
+  const accordion = useRef<HTMLDivElement>(null);
+  const Component = tag as keyof JSX.IntrinsicElements;
 
   useEffect(() => {
-    setAccordionOpen(active)
-  }, [accordion])
+    setAccordionOpen(active);
+  }, [accordion]);
 
   return (
     <Component>
       <button
-        className="h4 font-playfair-display flex items-center justify-between w-full text-left py-5"
-        onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }}
+        className="h4 font-quicksand flex items-center justify-between w-full text-left py-5"
+        onClick={(e) => {
+          e.preventDefault();
+          setAccordionOpen(!accordionOpen);
+        }}
         aria-expanded={accordionOpen}
       >
         <span>{title}</span>
-        <svg className={`w-4 h-4 fill-current text-blue-600 shrink-0 ml-8 ${accordionOpen && 'rotate-180'}`} viewBox="0 0 16 16">
+        <svg className={`w-4 h-4 fill-current text-blue-600 shrink-0 ml-8 ${accordionOpen && "rotate-180"}`} viewBox="0 0 16 16">
           <path d="m3 5 5 6 5-6z" />
         </svg>
       </button>
@@ -44,5 +41,5 @@ export default function Accordion({
         <p className="pb-5">{children}</p>
       </div>
     </Component>
-  )
+  );
 }

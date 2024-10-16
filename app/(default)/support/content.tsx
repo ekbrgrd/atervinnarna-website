@@ -1,21 +1,18 @@
-import Image from 'next/image'
-import AvatarImage01 from '@/public/images/support-avatar-01.jpg'
-import AvatarImage02 from '@/public/images/support-avatar-02.jpg'
-import AvatarImage03 from '@/public/images/support-avatar-03.jpg'
-import AvatarImage04 from '@/public/images/support-avatar-04.jpg'
-import AvatarImage05 from '@/public/images/support-avatar-05.jpg'
-import AvatarImage06 from '@/public/images/support-avatar-06.jpg'
+import Image from "next/image";
+import AvatarImage01 from "@/public/images/support-avatar-01.jpg";
+import AvatarImage02 from "@/public/images/support-avatar-02.jpg";
+import AvatarImage03 from "@/public/images/support-avatar-03.jpg";
+import AvatarImage04 from "@/public/images/support-avatar-04.jpg";
+import AvatarImage05 from "@/public/images/support-avatar-05.jpg";
+import AvatarImage06 from "@/public/images/support-avatar-06.jpg";
 
-export default function SupportContent() {  
+export default function SupportContent() {
   return (
     <section className="bg-slate-50">
-
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
-
           {/* Articles */}
           <div className="max-w-3xl mx-auto space-y-4" data-aos-id-support>
-
             {/* Article*/}
             <article className="bg-white p-6 md:px-8 shadow-lg" data-aos="fade-up" data-aos-anchor="[data-aos-id-support]">
               <div className="flex">
@@ -28,8 +25,10 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
-                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Getting Started with Tidy</a>
+                    <h2 className="h4 font-quicksand mb-2">
+                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">
+                        Getting Started with Tidy
+                      </a>
                     </h2>
                   </header>
                   <p className="text-slate-500 mb-4">New to Tidy or feeling a little lost? Start here ;)</p>
@@ -39,7 +38,16 @@ export default function SupportContent() {
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage02} width={32} height={32} alt="Avatar 02" />
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage03} width={32} height={32} alt="Avatar 03" />
                     </div>
-                    <div className="grow text-sm font-medium text-slate-600"><a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">4 Articles</a> written by <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">Anna L.</a>, and 2 others</div>
+                    <div className="grow text-sm font-medium text-slate-600">
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        4 Articles
+                      </a>{" "}
+                      written by{" "}
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        Anna L.
+                      </a>
+                      , and 2 others
+                    </div>
                   </footer>
                 </div>
               </div>
@@ -57,8 +65,10 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
-                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Account Access and Billing</a>
+                    <h2 className="h4 font-quicksand mb-2">
+                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">
+                        Account Access and Billing
+                      </a>
                     </h2>
                   </header>
                   <p className="text-slate-500 mb-4">Managing your account; upgrading, downgrading and cancellations, payments, etc.</p>
@@ -68,7 +78,16 @@ export default function SupportContent() {
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage04} width={32} height={32} alt="Avatar 04" />
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage05} width={32} height={32} alt="Avatar 05" />
                     </div>
-                    <div className="grow text-sm font-medium text-slate-600"><a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">7 Articles</a> written by <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">Anna L.</a>, and 2 others</div>
+                    <div className="grow text-sm font-medium text-slate-600">
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        7 Articles
+                      </a>{" "}
+                      written by{" "}
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        Anna L.
+                      </a>
+                      , and 2 others
+                    </div>
                   </footer>
                 </div>
               </div>
@@ -86,8 +105,10 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
-                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Best Practices</a>
+                    <h2 className="h4 font-quicksand mb-2">
+                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">
+                        Best Practices
+                      </a>
                     </h2>
                   </header>
                   <p className="text-slate-500 mb-4">Practical platform tips and recommendations.</p>
@@ -97,7 +118,16 @@ export default function SupportContent() {
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage02} width={32} height={32} alt="Avatar 02" />
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage03} width={32} height={32} alt="Avatar 03" />
                     </div>
-                    <div className="grow text-sm font-medium text-slate-600"><a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">2 Articles</a> written by <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">Kevin P.</a>, and 2 others</div>
+                    <div className="grow text-sm font-medium text-slate-600">
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        2 Articles
+                      </a>{" "}
+                      written by{" "}
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        Kevin P.
+                      </a>
+                      , and 2 others
+                    </div>
                   </footer>
                 </div>
               </div>
@@ -115,8 +145,10 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
-                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">API</a>
+                    <h2 className="h4 font-quicksand mb-2">
+                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">
+                        API
+                      </a>
                     </h2>
                   </header>
                   <p className="text-slate-500 mb-4">Find the most commonly asked questions about Tidy's API</p>
@@ -124,7 +156,15 @@ export default function SupportContent() {
                     <div className="flex shrink-0 -space-x-3 -ml-0.5 mr-3">
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage01} width={32} height={32} alt="Avatar 01" />
                     </div>
-                    <div className="grow text-sm font-medium text-slate-600"><a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">2 Articles</a> written by <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">Anna L.</a></div>
+                    <div className="grow text-sm font-medium text-slate-600">
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        2 Articles
+                      </a>{" "}
+                      written by{" "}
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        Anna L.
+                      </a>
+                    </div>
                   </footer>
                 </div>
               </div>
@@ -142,8 +182,10 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
-                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Other Tools</a>
+                    <h2 className="h4 font-quicksand mb-2">
+                      <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">
+                        Other Tools
+                      </a>
                     </h2>
                   </header>
                   <p className="text-slate-500 mb-4">Tutorials, FAQs and best practices with tools like Tidy Pro, Tidy Tracker, and more.</p>
@@ -153,16 +195,23 @@ export default function SupportContent() {
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage04} width={32} height={32} alt="Avatar 04" />
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage05} width={32} height={32} alt="Avatar 05" />
                     </div>
-                    <div className="grow text-sm font-medium text-slate-600"><a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">5 Articles</a> written by <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">Anna L.</a>, and 2 others</div>
+                    <div className="grow text-sm font-medium text-slate-600">
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        5 Articles
+                      </a>{" "}
+                      written by{" "}
+                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                        Anna L.
+                      </a>
+                      , and 2 others
+                    </div>
                   </footer>
                 </div>
               </div>
             </article>
-
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }

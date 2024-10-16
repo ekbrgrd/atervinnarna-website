@@ -1,24 +1,22 @@
-import type { Metadata } from 'next'
-import { getBlogPosts } from '@/components/mdx/utils'
-import { notFound } from 'next/navigation'
-import Link from 'next/link'
-import Image from 'next/image'
-import PostDate from '@/components/post-date'
-import { CustomMDX } from '@/components/mdx/mdx'
-import Separator from '@/components/separator'
-import Newsletter from '@/components/newsletter'
+import type { Metadata } from "next";
+import { getBlogPosts } from "@/components/mdx/utils";
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import Image from "next/image";
+import PostDate from "@/components/post-date";
+import { CustomMDX } from "@/components/mdx/mdx";
+import Separator from "@/components/separator";
+import Newsletter from "@/components/newsletter";
 
 export async function generateStaticParams() {
   const allBlogs = getBlogPosts();
 
   return allBlogs.map((post) => ({
     slug: post.slug,
-  }))
+  }));
 }
 
-export async function generateMetadata({ params }: {
-  params: { slug: string }
-}): Promise<Metadata | undefined> {
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata | undefined> {
   const post = getBlogPosts().find((post) => post.slug === params.slug);
 
   if (!post) {
@@ -33,9 +31,7 @@ export async function generateMetadata({ params }: {
   };
 }
 
-export default async function SinglePost({ params }: {
-  params: { slug: string }
-}) {
+export default async function SinglePost({ params }: { params: { slug: string } }) {
   const post = getBlogPosts().find((post) => post.slug === params.slug);
 
   if (!post) notFound();
@@ -44,19 +40,29 @@ export default async function SinglePost({ params }: {
     <>
       <article>
         <header className="relative">
-
           {/* Dark background */}
-          <div className="absolute inset-0 bg-slate-900 pointer-events-none -z-10 mb-36 lg:mb-0 lg:h-[48rem] [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true"></div>
+          <div
+            className="absolute inset-0 bg-slate-900 pointer-events-none -z-10 mb-36 lg:mb-0 lg:h-[48rem] [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]"
+            aria-hidden="true"
+          ></div>
 
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 md:pt-40 pb-8">
               <div className="max-w-3xl mx-auto">
-
                 <div className="mb-8">
                   {/* Title and excerpt */}
                   <div className="text-center md:text-left">
-                    <Link className="inline-flex font-semibold text-blue-600 hover:text-blue-500 transition duration-150 ease-in-out group mb-2" href="/blog" data-aos="fade-down"><span className="tracking-normal text-blue-600 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">&lt;-</span> Back to Blog</Link>
-                    <h1 className="h2 font-playfair-display text-slate-100 mb-6">{post.metadata.title}</h1>
+                    <Link
+                      className="inline-flex font-semibold text-blue-600 hover:text-blue-500 transition duration-150 ease-in-out group mb-2"
+                      href="/blog"
+                      data-aos="fade-down"
+                    >
+                      <span className="tracking-normal text-blue-600 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">
+                        &lt;-
+                      </span>{" "}
+                      Back to Blog
+                    </Link>
+                    <h1 className="h2 font-quicksand text-slate-100 mb-6">{post.metadata.title}</h1>
                   </div>
                   {/* Article meta */}
                   <div className="md:flex md:items-center md:justify-between mt-3" data-aos="fade-up">
@@ -64,12 +70,16 @@ export default async function SinglePost({ params }: {
                     {post.metadata.authorImg && (
                       <div className="flex items-center justify-center">
                         <a href="#0">
-                          <Image className="rounded-full shrink-0 mr-3" src={post.metadata.authorImg} width={32} height={32} alt={post.metadata.author || ''} />
+                          <Image className="rounded-full shrink-0 mr-3" src={post.metadata.authorImg} width={32} height={32} alt={post.metadata.author || ""} />
                         </a>
                         <div>
-                          <a className="font-medium text-slate-200 hover:text-slate-100 transition duration-150 ease-in-out" href="#0">{post.metadata.author}</a>
+                          <a className="font-medium text-slate-200 hover:text-slate-100 transition duration-150 ease-in-out" href="#0">
+                            {post.metadata.author}
+                          </a>
                           <span className="text-slate-600"> · </span>
-                          <span className="text-slate-400"><PostDate dateString={post.metadata.publishedAt} /></span>
+                          <span className="text-slate-400">
+                            <PostDate dateString={post.metadata.publishedAt} />
+                          </span>
                         </div>
                       </div>
                     )}
@@ -103,12 +113,11 @@ export default async function SinglePost({ params }: {
                 </div>
 
                 {/* Article image */}
-                {post.metadata.image &&
+                {post.metadata.image && (
                   <figure>
                     <Image className="w-full" src={post.metadata.image} width={768} height={432} priority alt={post.metadata.title} />
                   </figure>
-                }
-
+                )}
               </div>
             </div>
           </div>
@@ -117,20 +126,18 @@ export default async function SinglePost({ params }: {
         {/* Article content */}
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto">
-
             <div className="mb-8">
-              <article className="prose text-lg text-slate-500 max-w-none prose-lg prose-p:leading-normal prose-headings:font-playfair-display prose-headings:text-slate-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-a:font-medium prose-strong:font-medium prose-strong:text-slate-900 prose-blockquote:pl-4 prose-blockquote:border-l-2 prose-blockquote:border-slate-900 prose-blockquote:not-italic prose-blockquote:font-normal prose-blockquote:text-inherit before:prose-p:content-[''] after:prose-p:content-[''] prose-hr:my-8">
+              <article className="prose text-lg text-slate-500 max-w-none prose-lg prose-p:leading-normal prose-headings:font-quicksand prose-headings:text-slate-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-a:font-medium prose-strong:font-medium prose-strong:text-slate-900 prose-blockquote:pl-4 prose-blockquote:border-l-2 prose-blockquote:border-slate-900 prose-blockquote:not-italic prose-blockquote:font-normal prose-blockquote:text-inherit before:prose-p:content-[''] after:prose-p:content-[''] prose-hr:my-8">
                 <CustomMDX source={post.content} />
               </article>
             </div>
-
           </div>
         </div>
       </article>
-      
+
       <Separator />
-      
+
       <Newsletter />
     </>
-  )
+  );
 }

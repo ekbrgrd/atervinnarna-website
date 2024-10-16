@@ -3,15 +3,13 @@ export default function FeaturesPricing() {
     <section className="bg-slate-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
-
           {/* Section header */}
           <div className="max-w-3xl mx-auto lg:mx-0 text-center lg:text-left pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">It's easy to add extra benefits to all of our plans.</h2>
+            <h2 className="h2 font-quicksand text-slate-800">It's easy to add extra benefits to all of our plans.</h2>
           </div>
 
           {/* Items */}
           <div className="relative max-w-sm mx-auto grid gap-8 lg:gap-16 md:grid-cols-3 lg:gap-y-20 items-start md:max-w-none">
-
             {/* 1st item */}
             <div className="relative" data-aos="fade-up">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -57,8 +55,10 @@ export default function FeaturesPricing() {
                 <use fill="#000" filter="url(#fbp1-h)" xlinkHref="#fbp1-i" />
                 <use fill="url(#fbp1-g)" xlinkHref="#fbp1-i" />
               </svg>
-              <h3 className="h4 font-playfair-display mb-2">Workers' Wallet</h3>
-              <p className="text-lg text-slate-500 mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <h3 className="h4 font-quicksand mb-2">Workers' Wallet</h3>
+              <p className="text-lg text-slate-500 mb-3">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
               <div className="font-medium text-slate-800">From $6/mo per participant. No setup fee</div>
             </div>
 
@@ -85,7 +85,10 @@ export default function FeaturesPricing() {
                   </filter>
                   <path d="M25.162 26H23.18v-4c0-.553.444-1 .99-1h3.962v2h-2.971v3Z" id="fbp2-b" />
                   <path d="M41.01 26h-1.981v-3h-2.972v-2h3.962c.547 0 .99.447.99 1v4Z" id="fbp2-d" />
-                  <path d="M42 45V34c0-1.105-.886-2-1.981-2h-5.943v-5.999A1.991 1.991 0 0 0 32.096 24a1.99 1.99 0 0 0-1.982 2v11l-4.188-3.382a1.789 1.789 0 0 0-1.694-.305c-1.064.358-1.548 1.601-1.012 2.595L28.133 45H42Z" id="fbp2-f" />
+                  <path
+                    d="M42 45V34c0-1.105-.886-2-1.981-2h-5.943v-5.999A1.991 1.991 0 0 0 32.096 24a1.99 1.99 0 0 0-1.982 2v11l-4.188-3.382a1.789 1.789 0 0 0-1.694-.305c-1.064.358-1.548 1.601-1.012 2.595L28.133 45H42Z"
+                    id="fbp2-f"
+                  />
                   <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="fbp2-g">
                     <stop stopColor="#FFF" offset="0%" />
                     <stop stopColor="#DBEAFE" offset="100%" />
@@ -99,8 +102,10 @@ export default function FeaturesPricing() {
                 <use fill="#000" filter="url(#fbp2-e)" xlinkHref="#fbp2-f" />
                 <use fill="url(#fbp2-g)" xlinkHref="#fbp2-f" />
               </svg>
-              <h3 className="h4 font-playfair-display mb-2">Workers' Wallet</h3>
-              <p className="text-lg text-slate-500 mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <h3 className="h4 font-quicksand mb-2">Workers' Wallet</h3>
+              <p className="text-lg text-slate-500 mb-3">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
               <div className="font-medium text-slate-800">From $6/mo per participant. No setup fee</div>
             </div>
 
@@ -138,7 +143,10 @@ export default function FeaturesPricing() {
                     <stop stopColor="#FFF" offset="0%" />
                     <stop stopColor="#DBEAFE" offset="100%" />
                   </linearGradient>
-                  <path d="m43.428 25.616-4.047-4.046a1.957 1.957 0 0 0-2.762 0l-4.047 4.046c-.76.765-.76 2 0 2.764l4.047 4.047c.764.76 1.998.76 2.762 0l4.047-4.046c.761-.764.761-2 0-2.765Z" id="fbp3-d" />
+                  <path
+                    d="m43.428 25.616-4.047-4.046a1.957 1.957 0 0 0-2.762 0l-4.047 4.046c-.76.765-.76 2 0 2.764l4.047 4.047c.764.76 1.998.76 2.762 0l4.047-4.046c.761-.764.761-2 0-2.765Z"
+                    id="fbp3-d"
+                  />
                 </defs>
                 <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                 <use fill="#000" filter="url(#fbp3-a)" xlinkHref="#fbp3-b" />
@@ -150,15 +158,15 @@ export default function FeaturesPricing() {
                 <use fill="#000" filter="url(#fbp3-h)" xlinkHref="#fbp3-i" />
                 <use fillOpacity=".64" fill="#BFDBFE" xlinkHref="#fbp3-i" />
               </svg>
-              <h3 className="h4 font-playfair-display mb-2">Workers' Wallet</h3>
-              <p className="text-lg text-slate-500 mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <h3 className="h4 font-quicksand mb-2">Workers' Wallet</h3>
+              <p className="text-lg text-slate-500 mb-3">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
               <div className="font-medium text-slate-800">From $6/mo per participant. No setup fee</div>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }

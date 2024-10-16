@@ -1,27 +1,27 @@
-import Link from 'next/link'
-import Tooltip from '@/components/utils/tooltip'
+import Link from "next/link";
+import Tooltip from "@/components/utils/tooltip";
 
 export default function FeaturesTable() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
-
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">Compare plans by features</h2>
+            <h2 className="h2 font-quicksand text-slate-800">Compare plans by features</h2>
           </div>
 
           {/* Tables */}
           <div className="space-y-4 mb-12">
-
             {/* Table (Tidy Essential) */}
             <div className="overflow-x-auto" data-aos="fade-up">
               <table className="table-auto w-full border-b border-slate-200">
                 {/* Table header */}
                 <thead>
                   <tr className="text-base sm:text-lg text-slate-800">
-                    <th className="text-xl md:text-2xl whitespace-nowrap font-bold font-playfair-display text-left pr-2 py-4 min-w-[10rem] md:min-w-[24rem]">Tidy Essential</th>
+                    <th className="text-xl md:text-2xl whitespace-nowrap font-bold font-quicksand text-left pr-2 py-4 min-w-[10rem] md:min-w-[24rem]">
+                      Tidy Essential
+                    </th>
                     <th className="text-bold text-center px-2 py-4">Essential</th>
                     <th className="text-bold text-center px-2 py-4">Premium</th>
                     <th className="text-bold text-center px-2 py-4">Advanced</th>
@@ -186,8 +186,8 @@ export default function FeaturesTable() {
                     </td>
                     <td className="text-sm px-2 py-4 text-center font-medium"></td>
                     <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      </svg></td>
+                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"></svg>
+                    </td>
                     <td className="text-sm px-2 py-4 text-center font-medium">
                       <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -204,7 +204,9 @@ export default function FeaturesTable() {
                 {/* Table header */}
                 <thead>
                   <tr className="text-base sm:text-lg text-slate-800">
-                    <th className="text-xl md:text-2xl whitespace-nowrap font-bold font-playfair-display text-left pr-2 py-4 min-w-[10rem] md:min-w-[24rem]">Tidy Advanced</th>
+                    <th className="text-xl md:text-2xl whitespace-nowrap font-bold font-quicksand text-left pr-2 py-4 min-w-[10rem] md:min-w-[24rem]">
+                      Tidy Advanced
+                    </th>
                     <th className="text-bold text-center px-2 py-4 sm:invisible">Essential</th>
                     <th className="text-bold text-center px-2 py-4 sm:invisible">Premium</th>
                     <th className="text-bold text-center px-2 py-4 sm:invisible">Advanced</th>
@@ -284,18 +286,17 @@ export default function FeaturesTable() {
                 </tbody>
               </table>
             </div>
-
           </div>
 
           {/* CTA */}
           <div className="text-center">
             <Link className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="/request-demo">
-              Request Demo <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              Request Demo{" "}
+              <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
             </Link>
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }
