@@ -34,8 +34,8 @@ export default function SignIn() {
                   </div>
                   <span className="flex-auto text-rose-50 text-sm py-2 pl-14 pr-8 -ml-14">Login with Google</span>
                 </button>
-                <button className="btn-sm p-0 text-white bg-blue-600 hover:bg-blue-700 w-full relative flex items-stretch">
-                  <div className="flex items-center bg-blue-700 mr-4">
+                <button className="btn-sm p-0 text-white bg-green-600 hover:bg-green-700 w-full relative flex items-stretch">
+                  <div className="flex items-center bg-green-700 mr-4">
                     <svg className="w-4 h-4 fill-current text-green-100 shrink-0 mx-3" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6.023 16 6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023Z" />
                     </svg>
@@ -68,7 +68,7 @@ export default function SignIn() {
                   </div>
                 </div>
                 <div className="mt-6">
-                  <button className="btn-sm w-full text-sm text-white bg-blue-600 hover:bg-blue-700 group">
+                  <button className="btn-sm w-full text-sm text-white bg-green-600 hover:bg-green-700 group">
                     Sign In{" "}
                     <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </button>

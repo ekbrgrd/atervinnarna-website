@@ -84,7 +84,7 @@ export default function Team() {
 
           {/* See All Customers */}
           <div className="text-center">
-            <button className="btn text-white bg-blue-600 hover:bg-blue-700 group">
+            <button className="btn text-white bg-green-600 hover:bg-green-700 group">
               See Open Positions{" "}
               <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
             </button>

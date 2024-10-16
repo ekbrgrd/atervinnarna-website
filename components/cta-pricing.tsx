@@ -12,7 +12,7 @@ export default function CtaPricing() {
             </div>
             <div className="h4 font-quicksand text-center lg:text-left mb-4 lg:mb-0">Launched a business making less than $100K in revenue?</div>
             <div className="p-3 rounded bg-slate-50">
-              <a className="btn-sm text-white bg-blue-600 hover:bg-blue-700 group" href="#0">
+              <a className="btn-sm text-white bg-green-600 hover:bg-green-700 group" href="#0">
                 Contact Us{" "}
                 <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </a>

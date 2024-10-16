@@ -35,7 +35,7 @@ export default function Newsletter() {
                       placeholder="Your email"
                       aria-label="Your email…"
                     />
-                    <button className="btn text-white bg-blue-600 hover:bg-blue-700">Subscribe</button>
+                    <button className="btn text-white bg-green-600 hover:bg-green-700">Subscribe</button>
                   </div>
                   {/* Success message */}
                   {/* <p class="text-xs text-slate-500 mt-3 italic">Thanks for subscribing!</p> */}

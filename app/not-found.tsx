@@ -24,7 +24,7 @@ export default function NotFound() {
               </div>
               <p className="text-xl text-slate-500">We couldn't find the page you're looking for.</p>
               <div className="mt-8">
-                <Link className="btn text-white bg-blue-600 hover:bg-blue-700" href="/">
+                <Link className="btn text-white bg-green-600 hover:bg-green-700" href="/">
                   Back Home
                 </Link>
               </div>
