@@ -36,11 +36,11 @@ export default function SignIn() {
                 </button>
                 <button className="btn-sm p-0 text-white bg-blue-600 hover:bg-blue-700 w-full relative flex items-stretch">
                   <div className="flex items-center bg-blue-700 mr-4">
-                    <svg className="w-4 h-4 fill-current text-blue-100 shrink-0 mx-3" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-4 h-4 fill-current text-green-100 shrink-0 mx-3" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6.023 16 6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023Z" />
                     </svg>
                   </div>
-                  <span className="flex-auto text-blue-50 text-sm py-2 pl-14 pr-8 -ml-14">Login with Facebook</span>
+                  <span className="flex-auto text-green-50 text-sm py-2 pl-14 pr-8 -ml-14">Login with Facebook</span>
                 </button>
               </div>
 
@@ -70,11 +70,11 @@ export default function SignIn() {
                 <div className="mt-6">
                   <button className="btn-sm w-full text-sm text-white bg-blue-600 hover:bg-blue-700 group">
                     Sign In{" "}
-                    <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                    <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </button>
                 </div>
                 <div className="text-center mt-5">
-                  <Link className="text-blue-600 hover:underline" href="/reset-password">
+                  <Link className="text-green-600 hover:underline" href="/reset-password">
                     Forgot your password?
                   </Link>
                 </div>

@@ -43,7 +43,7 @@ export default function Customers() {
                     <Image className="rounded-full shrink-0 mr-3" src={CustomerAvatar01} width="32" height="32" alt="Customer Avatar 01" />
                   </Link>
                   <div className="font-medium">
-                    <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                    <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                       Christine Duck
                     </a>
                     <span className="text-slate-300"> · </span>
@@ -62,7 +62,7 @@ export default function Customers() {
                   <svg className="w-16 h-16 fill-current sm:w-20 sm:h-20 group" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
                     <circle className="text-white opacity-80 group-hover:opacity-100 transition duration-150 ease-in-out" cx="44" cy="44" r="44" />
                     <path
-                      className="text-blue-600"
+                      className="text-green-600"
                       d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
                     />
                   </svg>
@@ -96,7 +96,7 @@ export default function Customers() {
                     <Image className="rounded-full shrink-0 mr-3" src={CustomerAvatar02} width="32" height="32" alt="Customer Avatar 02" />
                   </Link>
                   <div className="font-medium">
-                    <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                    <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                       Marco Tancredi
                     </a>
                     <span className="text-slate-300"> · </span>
@@ -115,7 +115,7 @@ export default function Customers() {
                   <svg className="w-16 h-16 fill-current sm:w-20 sm:h-20 group" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
                     <circle className="text-white opacity-80 group-hover:opacity-100 transition duration-150 ease-in-out" cx="44" cy="44" r="44" />
                     <path
-                      className="text-blue-600"
+                      className="text-green-600"
                       d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
                     />
                   </svg>
@@ -149,7 +149,7 @@ export default function Customers() {
                     <Image className="rounded-full shrink-0 mr-3" src={CustomerAvatar03} width="32" height="32" alt="Customer Avatar 03" />
                   </Link>
                   <div className="font-medium">
-                    <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                    <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                       Štefan Štefančík
                     </a>
                     <span className="text-slate-300"> · </span>
@@ -168,7 +168,7 @@ export default function Customers() {
                   <svg className="w-16 h-16 fill-current sm:w-20 sm:h-20 group" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
                     <circle className="text-white opacity-80 group-hover:opacity-100 transition duration-150 ease-in-out" cx="44" cy="44" r="44" />
                     <path
-                      className="text-blue-600"
+                      className="text-green-600"
                       d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
                     />
                   </svg>

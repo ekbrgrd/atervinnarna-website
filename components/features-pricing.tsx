@@ -45,7 +45,7 @@ export default function FeaturesPricing() {
                     <stop stopColor="#DBEAFE" offset="100%" />
                   </linearGradient>
                 </defs>
-                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                 <use fill="#000" filter="url(#fbp1-a)" xlinkHref="#fbp1-b" />
                 <use fillOpacity=".64" fill="#BFDBFE" xlinkHref="#fbp1-b" />
                 <use fill="#000" filter="url(#fbp1-c)" xlinkHref="#fbp1-d" />
@@ -94,7 +94,7 @@ export default function FeaturesPricing() {
                     <stop stopColor="#DBEAFE" offset="100%" />
                   </linearGradient>
                 </defs>
-                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                 <use fill="#000" filter="url(#fbp2-a)" xlinkHref="#fbp2-b" />
                 <use fillOpacity=".64" fill="#BFDBFE" xlinkHref="#fbp2-b" />
                 <use fill="#000" filter="url(#fbp2-c)" xlinkHref="#fbp2-d" />
@@ -148,7 +148,7 @@ export default function FeaturesPricing() {
                     id="fbp3-d"
                   />
                 </defs>
-                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                 <use fill="#000" filter="url(#fbp3-a)" xlinkHref="#fbp3-b" />
                 <use fillOpacity=".64" fill="#BFDBFE" xlinkHref="#fbp3-b" />
                 <use fill="#000" filter="url(#fbp3-c)" xlinkHref="#fbp3-d" />

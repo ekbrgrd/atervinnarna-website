@@ -30,7 +30,7 @@ export default function PostItem({ ...props }) {
             <Image className="rounded-full shrink-0 mr-3" src={props.metadata.authorImg} width={32} height={32} alt={props.metadata.author} />
           </a>
           <div>
-            <a className="font-medium text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+            <a className="font-medium text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
               {props.metadata.author}
             </a>
             <span className="text-slate-300"> · </span>

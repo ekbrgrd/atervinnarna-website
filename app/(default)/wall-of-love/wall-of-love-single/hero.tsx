@@ -18,11 +18,11 @@ export default function HeroWolSingle() {
           <div className="max-w-3xl mx-auto text-center">
             <div className="text-center">
               <Link
-                className="inline-flex font-semibold text-blue-600 hover:text-blue-500 transition duration-150 ease-in-out group mb-2"
+                className="inline-flex font-semibold text-green-600 hover:text-green-500 transition duration-150 ease-in-out group mb-2"
                 href="/wall-of-love"
                 data-aos="fade-down"
               >
-                <span className="tracking-normal text-blue-600 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">&lt;-</span>{" "}
+                <span className="tracking-normal text-green-600 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">&lt;-</span>{" "}
                 Back to Wall of Love
               </Link>
               <h1 className="h2 font-quicksand text-slate-100 mb-4">How Black Inc. Increased team collboration with Tidy</h1>

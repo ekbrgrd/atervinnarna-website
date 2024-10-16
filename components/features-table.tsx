@@ -292,7 +292,7 @@ export default function FeaturesTable() {
           <div className="text-center">
             <Link className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="/request-demo">
               Request Demo{" "}
-              <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
             </Link>
           </div>
         </div>

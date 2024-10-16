@@ -5,12 +5,53 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        slate: {
-          900: "#101D2D",
+        /* slate: {
+          100: "#F1F5F9", // Lightest shade
+          200: "#E2E8F0", // Slightly darker
+          300: "#CBD5E1", // Light grayish-blue
+          400: "#94A3B8", // Medium-light
+          500: "#64748B", // Medium shade, neutral
+          600: "#475569", // Darker neutral
+          700: "#334155", // Deeper and darker
+          800: "#1E293B", // Very dark, almost at 900
+          900: "#101D2D", // The provided darkest shade
+        }, */ slate: {
+          100: "#E5E8E5", // Lighter, more neutral grayish tone
+          200: "#C8CEC8", // Light gray with a slight cool undertone
+          300: "#A1A7A1", // Medium-light grayish tone with less saturation
+          400: "#788078", // Medium gray, desaturated and balanced
+          500: "#596659", // Darker, more neutral gray with a hint of green
+          600: "#465046", // Dark slate, reduced green influence
+          700: "#353C34", // Deeper gray, subtle green hint
+          800: "#252C27", // Very dark grayish-slate, more neutral
+          900: "#171F1A", // Darkest, almost neutral dark gray
         },
-        blue: {
+
+        /* blue: {
           500: "#5696FF",
           600: "#2174EA",
+        }, */
+        blue: {
+          100: "#e3f8dd",
+          200: "#b9ea9b",
+          300: "#8edb59",
+          400: "#63cd17",
+          500: "#2e830e",
+          600: "#266a0b",
+          700: "#1f5208",
+          800: "#173a06",
+          900: "#0f2204",
+        },
+        green: {
+          100: "#e3f8dd",
+          200: "#b9ea9b",
+          300: "#8edb59",
+          400: "#63cd17",
+          500: "#2e830e",
+          600: "#266a0b",
+          700: "#1f5208",
+          800: "#173a06",
+          900: "#0f2204",
         },
       },
       fontFamily: {

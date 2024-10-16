@@ -38,7 +38,7 @@ export default function FeaturesBlocks() {
                     <stop stopColor="#E2EEFF" offset="100%" />
                   </linearGradient>
                 </defs>
-                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                 <use fill="#000" filter="url(#fb1-a)" xlinkHref="#fb1-b" />
                 <use fill="url(#fb1-c)" xlinkHref="#fb1-b" />
                 <use fill="#000" filter="url(#fb1-d)" xlinkHref="#fb1-e" />
@@ -70,7 +70,7 @@ export default function FeaturesBlocks() {
                     <stop stopColor="#E2EEFF" offset="100%" />
                   </linearGradient>
                 </defs>
-                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                 <g transform="rotate(25 32.5 32.5)">
                   <use fill="#000" filter="url(#fb2-a)" xlinkHref="#fb2-b" />
                   <use fillOpacity=".64" fill="#E2EEFF" xlinkHref="#fb2-b" />
@@ -110,7 +110,7 @@ export default function FeaturesBlocks() {
                     <stop stopColor="#E2EEFF" offset="100%" />
                   </linearGradient>
                 </defs>
-                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                 <use fill="#000" filter="url(#fb3-a)" xlinkHref="#fb3-b" />
                 <use fillOpacity=".64" fill="#E2EEFF" xlinkHref="#fb3-b" />
                 <use fill="#000" filter="url(#fb3-c)" xlinkHref="#fb3-d" />
@@ -142,7 +142,7 @@ export default function FeaturesBlocks() {
                     <stop stopColor="#E2EEFF" offset="100%" />
                   </linearGradient>
                 </defs>
-                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                 <use fill="#000" filter="url(#fb4-a)" xlinkHref="#fb4-b" />
                 <use fill="url(#fb4-c)" xlinkHref="#fb4-b" />
                 <use fill="#000" filter="url(#fb4-d)" xlinkHref="#fb4-e" />
@@ -174,7 +174,7 @@ export default function FeaturesBlocks() {
                     <stop stopColor="#E2EEFF" offset="100%" />
                   </linearGradient>
                 </defs>
-                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                 <use fill="#000" filter="url(#fb5-a)" xlinkHref="#fb5-b" />
                 <use fillOpacity=".64" fill="#E2EEFF" xlinkHref="#fb5-b" />
                 <use fill="#000" filter="url(#fb5-c)" xlinkHref="#fb5-d" />
@@ -209,7 +209,7 @@ export default function FeaturesBlocks() {
                     <stop stopColor="#E2EEFF" offset="100%" />
                   </linearGradient>
                 </defs>
-                <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                <rect className="fill-current text-green-600" width="64" height="64" rx="32" />
                 <use fill="#000" filter="url(#fb6-a)" xlinkHref="#fb6-b" />
                 <use fill="url(#fb6-c)" xlinkHref="#fb6-b" />
                 <use fill="#000" filter="url(#fb6-d)" xlinkHref="#fb6-e" />

@@ -46,7 +46,7 @@ export default function Testimonials() {
                 <p className="text-slate-500 italic">Tidy has been the system to drive change in collaboration on content for our organisation.</p>
               </div>
               <footer className="text-sm font-medium">
-                <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                   Patrick Hills
                 </a>
                 <span className="text-slate-300"> · </span>
@@ -84,7 +84,7 @@ export default function Testimonials() {
                 <p className="text-slate-500 italic">Tidy has been the system to drive change in collaboration on content for our organisation.</p>
               </div>
               <footer className="text-sm font-medium">
-                <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                   Jeff Wong
                 </a>
                 <span className="text-slate-300"> · </span>
@@ -122,7 +122,7 @@ export default function Testimonials() {
                 <p className="text-slate-500 italic">Tidy has been the system to drive change in collaboration on content for our organisation.</p>
               </div>
               <footer className="text-sm font-medium">
-                <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                   Amy Tolinski
                 </a>
                 <span className="text-slate-300"> · </span>
@@ -160,7 +160,7 @@ export default function Testimonials() {
                 <p className="text-slate-500 italic">Tidy has been the system to drive change in collaboration on content for our organisation.</p>
               </div>
               <footer className="text-sm font-medium">
-                <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                   Chris Mallard
                 </a>
                 <span className="text-slate-300"> · </span>
@@ -198,7 +198,7 @@ export default function Testimonials() {
                 <p className="text-slate-500 italic">Tidy has been the system to drive change in collaboration on content for our organisation.</p>
               </div>
               <footer className="text-sm font-medium">
-                <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                   Cathie Wood
                 </a>
                 <span className="text-slate-300"> · </span>
@@ -236,7 +236,7 @@ export default function Testimonials() {
                 <p className="text-slate-500 italic">Tidy has been the system to drive change in collaboration on content for our organisation.</p>
               </div>
               <footer className="text-sm font-medium">
-                <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                   Mary Duncan
                 </a>
                 <span className="text-slate-300"> · </span>
@@ -248,7 +248,7 @@ export default function Testimonials() {
           <div className="text-center">
             <button className="btn text-white bg-blue-600 hover:bg-blue-700 group">
               See All Customers{" "}
-              <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
             </button>
           </div>
         </div>

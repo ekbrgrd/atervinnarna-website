@@ -1,4 +1,4 @@
-export default function BlogTags() {  
+export default function BlogTags() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -6,13 +6,15 @@ export default function BlogTags() {
           <div className="w-full flex items-center justify-between space-x-10">
             <ul className="flex md:flex-wrap -mx-5 -my-2">
               <li className="mx-5 my-2">
-                <button className="font-medium whitespace-nowrap text-blue-600">Latest</button>
+                <button className="font-medium whitespace-nowrap text-green-600">Latest</button>
               </li>
               <li className="mx-5 my-2">
                 <button className="font-medium whitespace-nowrap text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Popular</button>
               </li>
               <li className="mx-5 my-2">
-                <button className="font-medium whitespace-nowrap text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Tips &amp; Tricks</button>
+                <button className="font-medium whitespace-nowrap text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">
+                  Tips &amp; Tricks
+                </button>
               </li>
               <li className="mx-5 my-2">
                 <button className="font-medium whitespace-nowrap text-slate-500 hover:text-slate-600 transition duration-150 ease-in-out">Product</button>
@@ -30,5 +32,5 @@ export default function BlogTags() {
         </div>
       </div>
     </section>
-  )
+  );
 }

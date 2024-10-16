@@ -39,11 +39,11 @@ export default function SupportContent() {
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage03} width={32} height={32} alt="Avatar 03" />
                     </div>
                     <div className="grow text-sm font-medium text-slate-600">
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         4 Articles
                       </a>{" "}
                       written by{" "}
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         Anna L.
                       </a>
                       , and 2 others
@@ -79,11 +79,11 @@ export default function SupportContent() {
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage05} width={32} height={32} alt="Avatar 05" />
                     </div>
                     <div className="grow text-sm font-medium text-slate-600">
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         7 Articles
                       </a>{" "}
                       written by{" "}
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         Anna L.
                       </a>
                       , and 2 others
@@ -119,11 +119,11 @@ export default function SupportContent() {
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage03} width={32} height={32} alt="Avatar 03" />
                     </div>
                     <div className="grow text-sm font-medium text-slate-600">
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         2 Articles
                       </a>{" "}
                       written by{" "}
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         Kevin P.
                       </a>
                       , and 2 others
@@ -157,11 +157,11 @@ export default function SupportContent() {
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage01} width={32} height={32} alt="Avatar 01" />
                     </div>
                     <div className="grow text-sm font-medium text-slate-600">
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         2 Articles
                       </a>{" "}
                       written by{" "}
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         Anna L.
                       </a>
                     </div>
@@ -196,11 +196,11 @@ export default function SupportContent() {
                       <Image className="rounded-full border-2 border-white box-content" src={AvatarImage05} width={32} height={32} alt="Avatar 05" />
                     </div>
                     <div className="grow text-sm font-medium text-slate-600">
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         5 Articles
                       </a>{" "}
                       written by{" "}
-                      <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                      <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                         Anna L.
                       </a>
                       , and 2 others

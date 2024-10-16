@@ -12,7 +12,7 @@ export default function WolContent() {
               <p className="mb-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis
                 scelerisque fermentum. Neque sodales ut etiam sit amet how to manage{" "}
-                <a className="font-medium text-blue-600 hover:underline" href="#0">
+                <a className="font-medium text-green-600 hover:underline" href="#0">
                   Black Inc.
                 </a>{" "}
                 malesuada proin libero nunc consequat interdum varius. Quam pellentesque nec nam aliquam sem et tortor consequat. Pellentesque adipiscing
@@ -90,7 +90,7 @@ export default function WolContent() {
               <p className="mb-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis
                 scelerisque fermentum. Neque sodales ut etiam sit amet how to manage{" "}
-                <a className="font-medium text-blue-600 hover:underline" href="#0">
+                <a className="font-medium text-green-600 hover:underline" href="#0">
                   Black Inc.
                 </a>{" "}
                 Varius sit amet mattis vulputate enim nulla aliquet porttitor. Odio pellentesque diam volutpat commodo.

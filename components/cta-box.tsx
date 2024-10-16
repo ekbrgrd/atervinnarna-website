@@ -19,7 +19,7 @@ export default function CtaBox() {
             <div className="mb-3">
               <a className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="#0">
                 Start free trial{" "}
-                <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </a>
             </div>
             <div className="text-sm italic text-slate-500">No credit card required. Cancel anytime!</div>

@@ -82,7 +82,7 @@ export default function Blog() {
                     )}
                   </a>
                   <div>
-                    <a className="font-medium text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                    <a className="font-medium text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                       {featuredPost.metadata.author}
                     </a>
                     <span className="text-slate-300"> · </span>
@@ -143,7 +143,7 @@ export default function Blog() {
             <div className="text-center">
               <button className="btn text-white bg-blue-600 hover:bg-blue-700 group">
                 See All Articles{" "}
-                <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </button>
             </div>
           </div>

@@ -40,16 +40,16 @@ export default function RelatedStories() {
                 <p className="text-slate-500 italic">Tidy has been the system to drive change in collaboration on content for our organisation.</p>
               </div>
               <footer className="text-sm font-medium">
-                <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                   Patrick Hills
                 </a>
                 <span className="text-slate-300"> · </span>
                 <span className="text-slate-500">CEO, Acme Inc.</span>
               </footer>
               <div className="text-right">
-                <a className="inline-flex font-semibold text-blue-600 hover:underline mt-5 group" href="#0">
+                <a className="inline-flex font-semibold text-green-600 hover:underline mt-5 group" href="#0">
                   Read Story{" "}
-                  <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  <span className="tracking-normal text-green-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </a>
               </div>
             </article>
@@ -79,16 +79,16 @@ export default function RelatedStories() {
                 <p className="text-slate-500 italic">Tidy has been the system to drive change in collaboration on content for our organisation.</p>
               </div>
               <footer className="text-sm font-medium">
-                <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                   Jeff Wong
                 </a>
                 <span className="text-slate-300"> · </span>
                 <span className="text-slate-500">CEO, Acme Inc.</span>
               </footer>
               <div className="text-right">
-                <a className="inline-flex font-semibold text-blue-600 hover:underline mt-5 group" href="#0">
+                <a className="inline-flex font-semibold text-green-600 hover:underline mt-5 group" href="#0">
                   Read Story{" "}
-                  <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  <span className="tracking-normal text-green-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </a>
               </div>
             </article>
@@ -118,16 +118,16 @@ export default function RelatedStories() {
                 <p className="text-slate-500 italic">Tidy has been the system to drive change in collaboration on content for our organisation.</p>
               </div>
               <footer className="text-sm font-medium">
-                <a className="text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">
+                <a className="text-slate-800 hover:text-green-600 transition duration-150 ease-in-out" href="#0">
                   Amy Tolinski
                 </a>
                 <span className="text-slate-300"> · </span>
                 <span className="text-slate-500">CEO, Acme Inc.</span>
               </footer>
               <div className="text-right">
-                <a className="inline-flex font-semibold text-blue-600 hover:underline mt-5 group" href="#0">
+                <a className="inline-flex font-semibold text-green-600 hover:underline mt-5 group" href="#0">
                   Read Story{" "}
-                  <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  <span className="tracking-normal text-green-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </a>
               </div>
             </article>

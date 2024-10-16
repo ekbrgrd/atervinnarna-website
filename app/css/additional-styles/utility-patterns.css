@@ -1,42 +1,42 @@
 /* Typography */
 .h1 {
-    @apply text-5xl font-bold;
+  @apply text-5xl font-bold;
 }
 
 .h2 {
-    @apply text-4xl font-bold;
+  @apply text-4xl font-bold;
 }
 
 .h3 {
-    @apply text-3xl font-bold;
+  @apply text-3xl font-bold;
 }
 
 .h4 {
-    @apply text-2xl font-bold;
+  @apply text-2xl font-bold;
 }
 
 @screen md {
-    .h1 {
-        @apply text-6xl;
-    }
+  .h1 {
+    @apply text-6xl;
+  }
 
-    .h2 {
-        @apply text-5xl;
-    }
+  .h2 {
+    @apply text-5xl;
+  }
 }
 
 /* Buttons */
 .btn,
 .btn-sm {
-    @apply font-medium inline-flex items-center justify-center border border-transparent rounded-sm leading-snug transition duration-150 ease-in-out;
+  @apply font-medium inline-flex items-center justify-center border border-transparent rounded-sm leading-snug transition duration-150 ease-in-out;
 }
 
 .btn {
-    @apply px-6 py-3;
+  @apply px-6 py-3;
 }
 
 .btn-sm {
-    @apply px-4 py-2;
+  @apply px-4 py-2;
 }
 
 /* Forms */
@@ -53,7 +53,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .form-select,
 .form-checkbox,
 .form-radio {
-    @apply bg-white border border-slate-200 focus:border-blue-300;
+  @apply bg-white border border-slate-200 focus:border-blue-300;
 }
 
 .form-input,
@@ -61,28 +61,28 @@ input[type="search"]::-webkit-search-results-decoration {
 .form-multiselect,
 .form-select,
 .form-checkbox {
-    @apply rounded-sm;
+  @apply rounded-sm;
 }
 
 .form-input,
 .form-textarea,
 .form-multiselect,
 .form-select {
-    @apply py-3 px-4;
+  @apply py-3 px-4;
 }
 
 .form-input,
 .form-textarea {
-    @apply placeholder-slate-500 leading-snug;
+  @apply placeholder-slate-500 leading-snug;
 }
 
 .form-select {
-    @apply pr-10;
+  @apply pr-10;
 }
 
 .form-checkbox,
 .form-radio {
-    @apply text-blue-600 rounded-sm;
+  @apply text-green-600 rounded-sm;
 }
 
 /* Chrome, Safari and Opera */
@@ -91,6 +91,6 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
