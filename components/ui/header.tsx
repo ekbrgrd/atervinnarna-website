@@ -22,7 +22,7 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
                   href="/pricing"
                   className="font-medium text-slate-800 hover:text-green-600 dark:text-slate-300 dark:hover:text-green-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Pricing
+                  Priser
                 </Link>
               </li>
               <li>
@@ -30,7 +30,7 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
                   href="/about"
                   className="font-medium text-slate-800 hover:text-green-600 dark:text-slate-300 dark:hover:text-green-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  About
+                  Om oss
                 </Link>
               </li>
               <li>
@@ -38,20 +38,28 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
                   href="/blog"
                   className="font-medium text-slate-800 hover:text-green-600 dark:text-slate-300 dark:hover:text-green-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Blog
+                  Blogg
                 </Link>
               </li>
               <li>
+                <Link
+                  href="/support"
+                  className="font-medium text-slate-800 hover:text-green-600 dark:text-slate-300 dark:hover:text-green-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Support
+                </Link>
+              </li>
+              {/* <li>
                 <Link
                   href="/wall-of-love"
                   className="font-medium text-slate-800 hover:text-green-600 dark:text-slate-300 dark:hover:text-green-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Wall of Love
                 </Link>
-              </li>
+              </li> */}
               {/* 1st level: hover */}
-              <Dropdown title="Resources">
-                {/* 2nd level: hover */}
+              {/*  <Dropdown title="Resources">
+                
                 <li>
                   <Link href="/404" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">
                     404
@@ -62,25 +70,25 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
                     Support
                   </Link>
                 </li>
-              </Dropdown>
+              </Dropdown> */}
             </ul>
 
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
+              {/* <li>
                 <Link
                   href="/signin"
                   className="font-medium text-slate-800 hover:text-green-600 dark:text-slate-300 dark:hover:text-green-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/request-demo"
                   className="font-medium text-green-600 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out group"
                 >
-                  Request Demo{" "}
+                  Kom igång{" "}
                   <span className="tracking-normal text-green-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </Link>
               </li>

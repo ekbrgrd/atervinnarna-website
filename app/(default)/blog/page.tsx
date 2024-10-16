@@ -25,7 +25,7 @@ export default function Blog() {
   const featuredPost = allBlogs[0];
   const latestPosts = allBlogs.slice(1, 4);
   const popularPosts = allBlogs.slice(4, 7);
-  const productPosts = allBlogs.slice(7, 10);
+  const productPosts = [allBlogs[0], allBlogs[1], allBlogs[2]];
 
   return (
     <>
@@ -103,7 +103,7 @@ export default function Blog() {
           <div className="py-8 md:py-16 space-y-16">
             {/* Latest */}
             <div>
-              <h2 className="h3 font-quicksand text-center md:text-left mb-8">Latest</h2>
+              <h2 className="h3 font-quicksand text-center md:text-left mb-8">Senaste</h2>
 
               {/* Articles container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
@@ -115,7 +115,7 @@ export default function Blog() {
 
             {/* Popular */}
             <div>
-              <h2 className="h3 font-quicksand text-center md:text-left mb-8">Popular</h2>
+              <h2 className="h3 font-quicksand text-center md:text-left mb-8">Populära</h2>
 
               {/* Articles container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
@@ -129,7 +129,7 @@ export default function Blog() {
 
             {/* Product & News */}
             <div>
-              <h2 className="h3 font-quicksand text-center md:text-left mb-8">Product &amp; News</h2>
+              <h2 className="h3 font-quicksand text-center md:text-left mb-8">Produkt &amp; Nyheter</h2>
 
               {/* Articles container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">

@@ -11,13 +11,14 @@ export default function Cta02() {
             </div>
 
             <div className="relative">
-              <h2 className="h2 font-quicksand text-slate-800 mb-4">Want to be part of the journey?</h2>
+              <h2 className="h2 font-quicksand text-slate-800 mb-4">Vill du vara del av resan?</h2>
               <p className="text-xl text-slate-500 mb-8">
-                We are always open to talk to great people who want to help us shape the future of work, and we have job openings all over the world.
+                Vi söker just nu du som vill vara med och bygga framtidens återvinningslösning. <br />
+                Och åka bil.
               </p>
               <div>
                 <a className="btn text-white bg-green-600 hover:bg-green-700 group" href="#0">
-                  See Open Positions{" "}
+                  Kontakta oss{" "}
                   <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </a>
               </div>

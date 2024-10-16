@@ -17,20 +17,18 @@ export default function HeroHome() {
           <div className="max-w-xl mx-auto md:max-w-none md:flex md:items-center md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-16 md:space-y-0">
             {/* Content */}
             <div className="text-center md:text-left md:min-w-[30rem]" data-aos="fade-right">
-              <h1 className="h1 font-quicksand text-slate-100 mb-4">Create stunning web experiences</h1>
-              <p className="text-xl text-slate-400 mb-8">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
-              </p>
+              <h1 className="h1 font-quicksand text-slate-100 mb-4">Vi återvinner för dig som inte hinner!</h1>
+              <p className="text-xl text-slate-400 mb-8">Slipp det ångestfyllda momentet i vardagen och låt oss hantera din källsortering.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div>
                   <Link className="btn text-white bg-green-600 hover:bg-green-700 w-full group" href="/request-demo">
-                    Request Demo{" "}
+                    Kom igång
                     <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
                 </div>
                 <div>
                   <Link className="btn text-white bg-slate-700 hover:bg-slate-800 w-full" href="#0">
-                    Explore Product
+                    Läs om tjänsten
                   </Link>
                 </div>
               </div>

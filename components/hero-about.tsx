@@ -16,7 +16,7 @@ export default function HeroAbout() {
         <div className="pt-32 md:pt-40">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-16">
-            <h1 className="h1 font-quicksand text-slate-100">We're designing a new way to do business</h1>
+            <h1 className="h1 font-quicksand text-slate-100">Vi skapar ett nytt sätt att återvinna</h1>
           </div>
 
           {/* Hero image */}

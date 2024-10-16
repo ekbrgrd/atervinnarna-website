@@ -8,14 +8,14 @@ export default function HeroSupport() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="h1 font-quicksand text-slate-100 mb-8">Advice and answers from the Tidy Team</h1>
+            <h1 className="h1 font-quicksand text-slate-100 mb-8">Råd och hjälp från oss Återvinnarna</h1>
             {/* Search form */}
             <form className="relative flex items-center mt-8">
               <input
                 type="search"
                 className="form-input w-full bg-slate-800 border border-slate-700 focus:border-slate-600 text-white placeholder-slate-500 pl-12"
-                placeholder="Search for articles…"
-                aria-label="Search for articles"
+                placeholder="Sök efter artiklar…"
+                aria-label="Sök efter artiklar"
               />
               <button type="submit" className="absolute inset-0 right-auto" aria-label="Search">
                 <svg className="w-4 h-4 shrink-0 ml-4 mr-3" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">

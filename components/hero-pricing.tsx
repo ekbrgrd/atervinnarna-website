@@ -13,7 +13,7 @@ export default function HeroPricing() {
         <div className="pt-32 md:pt-40">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h1 className="h1 font-quicksand text-slate-100">Find the right plan for your business</h1>
+            <h1 className="h1 font-quicksand text-slate-100">Hitta paketet som passar dig bäst</h1>
           </div>
 
           <PricingTables />

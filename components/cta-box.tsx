@@ -14,7 +14,7 @@ export default function CtaBox() {
           {/* CTA content */}
           <div className="text-center lg:text-left lg:max-w-xl">
             <h3 className="h3 font-quicksand text-slate-100 mb-8">
-              Say goodbye to long queues, big updates, and <span className="text-emerald-500">confusion</span>.
+              Säg hejdå till långa köer, ödslad tid, och <span className="text-emerald-500">krångel</span>.
             </h3>
             <div className="mb-3">
               <a className="btn text-white bg-green-600 hover:bg-green-700 group" href="#0">

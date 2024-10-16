@@ -16,7 +16,9 @@ export default function FeaturesHome03() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-quicksand text-slate-100">Simplify operating and manage with transparency</h2>
+            <h2 className="h2 font-quicksand text-slate-100">
+              Enkel återvinning, <br /> direkt vid din dörr
+            </h2>
           </div>
 
           {/* Section content */}
@@ -37,7 +39,7 @@ export default function FeaturesHome03() {
                     alt="News 01"
                   />
                 </div>
-                <div className="w-16 h-16 absolute bg-gradient-to-b from-blue-500 to-blue-600 rounded-full -top-8 left-8">
+                <div className="w-16 h-16 absolute bg-gradient-to-b from-green-500 to-green-600 rounded-full -top-8 left-8">
                   <svg className="w-16 h-16 fill-current" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                     <path
                       className="text-white"
@@ -47,11 +49,11 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-quicksand mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">
-                  Advanced Features
+                <a className="text-slate-800 hover:underline hover:decoration-green-100" href="#0">
+                  Välj paket och schema
                 </a>
               </h3>
-              <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
+              <p className="text-lg text-slate-500">Välj ett återvinningspaket och bestäm hur ofta du vill ha upphämtning. Registrera dig smidigt online.</p>
             </article>
 
             {/* 2nd article */}
@@ -70,7 +72,7 @@ export default function FeaturesHome03() {
                     alt="News 02"
                   />
                 </div>
-                <div className="w-16 h-16 absolute bg-gradient-to-b from-blue-500 to-blue-600 rounded-full -top-8 left-8">
+                <div className="w-16 h-16 absolute bg-gradient-to-b from-green-500 to-green-600 rounded-full -top-8 left-8">
                   <svg className="w-16 h-16 fill-current" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                     <path
                       className="text-white"
@@ -80,11 +82,11 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-quicksand mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">
-                  Advanced Features
+                <a className="text-slate-800 hover:underline hover:decoration-green-100" href="#0">
+                  Vi levererar lådan
                 </a>
               </h3>
-              <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
+              <p className="text-lg text-slate-500">Efter registrering tar vi kontakt och levererar dina återvinningslådor till dörren.</p>
             </article>
 
             {/* 3rd article */}
@@ -103,7 +105,7 @@ export default function FeaturesHome03() {
                     alt="News 03"
                   />
                 </div>
-                <div className="w-16 h-16 absolute bg-gradient-to-b from-blue-500 to-blue-600 rounded-full -top-8 left-8">
+                <div className="w-16 h-16 absolute bg-gradient-to-b from-green-500 to-green-600 rounded-full -top-8 left-8">
                   <svg className="w-16 h-16 fill-current" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                     <path
                       className="text-white"
@@ -113,11 +115,13 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-quicksand mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">
-                  Advanced Features
+                <a className="text-slate-800 hover:underline hover:decoration-green-100" href="#0">
+                  Vi hämtar regelbundet
                 </a>
               </h3>
-              <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
+              <p className="text-lg text-slate-500">
+                Ditt schema sköts automatiskt, och vi hämtar din återvinning när det är dags, så att du kan tänka på annat.
+              </p>
             </article>
           </div>
         </div>

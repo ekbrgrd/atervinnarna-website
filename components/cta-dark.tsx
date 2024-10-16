@@ -14,7 +14,7 @@ export default function CtaDark() {
 
             <div className="relative">
               <h2 className="h2 font-quicksand text-slate-100 mb-4">
-                Say goodbye to long queues, big updates, and <span className="text-emerald-500">confusion</span>.
+                Säg hejdå till långa köer, ödslad tid, och <span className="text-emerald-500">krångel</span>.
               </h2>
               <p className="text-xl text-slate-400 mb-8">
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at
