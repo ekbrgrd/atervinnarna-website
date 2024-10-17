@@ -30,7 +30,7 @@ export default function Blog() {
   return (
     <>
       <Hero />
-      <Tags />
+      {/* <Tags /> */}
 
       {/* Featured article */}
       <section>

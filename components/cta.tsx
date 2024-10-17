@@ -20,7 +20,7 @@ export default function Cta() {
                 Låt oss ta hand om din återvinning med smidiga, flexibla planer och miljövänliga lösningar – allt med personlig service direkt vid din dörr.
               </p>
               <div>
-                <Link className="btn text-white bg-green-600 hover:bg-green-700 group" href="/request-demo">
+                <Link className="btn text-white bg-green-600 hover:bg-green-700 group" href="/request">
                   Kom igång idag{" "}
                   <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </Link>

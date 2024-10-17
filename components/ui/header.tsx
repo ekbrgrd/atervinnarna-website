@@ -2,6 +2,7 @@ import Link from "next/link";
 import Logo from "./logo";
 import Dropdown from "@/components/utils/dropdown";
 import MobileMenu from "./mobile-menu";
+import LogoText from "./logo-text";
 
 export default function Header({ mode = "dark" }: { mode?: string }) {
   return (
@@ -10,7 +11,7 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4">
-            <Logo />
+            <LogoText /> {/* <Logo /> */}
           </div>
 
           {/* Desktop navigation */}
@@ -85,7 +86,7 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
               </li> */}
               <li>
                 <Link
-                  href="/request-demo"
+                  href="/request"
                   className="font-medium text-green-600 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out group"
                 >
                   Kom igång{" "}

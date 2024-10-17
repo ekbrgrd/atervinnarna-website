@@ -5,7 +5,7 @@ export default function FeaturesPricing() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto lg:mx-0 text-center lg:text-left pb-12 md:pb-20">
-            <h2 className="h2 font-quicksand text-slate-800">It's easy to add extra benefits to all of our plans.</h2>
+            <h2 className="h2 font-quicksand text-slate-800">Lägg enkelt till extra tjänster utöver våra planer.</h2>
           </div>
 
           {/* Items */}
@@ -55,11 +55,9 @@ export default function FeaturesPricing() {
                 <use fill="#000" filter="url(#fbp1-h)" xlinkHref="#fbp1-i" />
                 <use fill="url(#fbp1-g)" xlinkHref="#fbp1-i" />
               </svg>
-              <h3 className="h4 font-quicksand mb-2">Workers' Wallet</h3>
-              <p className="text-lg text-slate-500 mb-3">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>
-              <div className="font-medium text-slate-800">From $6/mo per participant. No setup fee</div>
+              <h3 className="h4 font-quicksand mb-2">Extra upphämtning</h3>
+              <p className="text-lg text-slate-500 mb-3">Lite mer återvinning än vanligt? Vi hjälper dig att ta hand om det.</p>
+              <div className="font-medium text-slate-800">Från 199 kr</div>
             </div>
 
             {/* 2nd item */}
@@ -102,11 +100,9 @@ export default function FeaturesPricing() {
                 <use fill="#000" filter="url(#fbp2-e)" xlinkHref="#fbp2-f" />
                 <use fill="url(#fbp2-g)" xlinkHref="#fbp2-f" />
               </svg>
-              <h3 className="h4 font-quicksand mb-2">Workers' Wallet</h3>
-              <p className="text-lg text-slate-500 mb-3">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>
-              <div className="font-medium text-slate-800">From $6/mo per participant. No setup fee</div>
+              <h3 className="h4 font-quicksand mb-2">Stora objekt-hämtning</h3>
+              <p className="text-lg text-slate-500 mb-3">Har du skrymmande föremål som möbler eller vitvaror som behöver återvinnas? Vi löser.</p>
+              <div className="font-medium text-slate-800">Från 249 kr</div>
             </div>
 
             {/* 3rd item */}
@@ -158,11 +154,11 @@ export default function FeaturesPricing() {
                 <use fill="#000" filter="url(#fbp3-h)" xlinkHref="#fbp3-i" />
                 <use fillOpacity=".64" fill="#BFDBFE" xlinkHref="#fbp3-i" />
               </svg>
-              <h3 className="h4 font-quicksand mb-2">Workers' Wallet</h3>
+              <h3 className="h4 font-quicksand mb-2">Inomhuslåda</h3>
               <p className="text-lg text-slate-500 mb-3">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Håll din återvinning organiserad med våra specialdesignade, miljövänliga inomhuslåda, som gör sorteringen enkel och smidig.
               </p>
-              <div className="font-medium text-slate-800">From $6/mo per participant. No setup fee</div>
+              <div className="font-medium text-slate-800">Från 249 kr</div>
             </div>
           </div>
         </div>

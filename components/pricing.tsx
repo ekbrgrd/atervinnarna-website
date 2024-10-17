@@ -10,7 +10,7 @@ export default function Pricing() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-quicksand text-slate-100">Find the right plan for your business</h2>
+            <h2 className="h2 font-quicksand text-slate-100">Hitta abonnemangsplanen som passar dig bäst</h2>
           </div>
 
           <PricingTables />

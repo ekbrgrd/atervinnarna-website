@@ -13,6 +13,7 @@
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
     "@next/mdx": "^14.2.4",
+    "@tanstack/react-form": "^0.34.0",
     "@types/mdx": "^2.0.13",
     "@types/node": "^20.10.4",
     "@types/react": "^18.2.42",

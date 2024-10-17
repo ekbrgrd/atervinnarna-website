@@ -21,7 +21,7 @@ export default function CtaDark() {
                 volutpat diam ut venenatis.
               </p>
               <div>
-                <Link className="btn text-white bg-green-600 hover:bg-green-700 group" href="/request-demo">
+                <Link className="btn text-white bg-green-600 hover:bg-green-700 group" href="/request">
                   Request Demo{" "}
                   <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </Link>

@@ -8,7 +8,7 @@ export default function FeaturesTable() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-quicksand text-slate-800">Compare plans by features</h2>
+            <h2 className="h2 font-quicksand text-slate-800">Jämför planerna i detalj</h2>
           </div>
 
           {/* Tables */}
@@ -19,12 +19,10 @@ export default function FeaturesTable() {
                 {/* Table header */}
                 <thead>
                   <tr className="text-base sm:text-lg text-slate-800">
-                    <th className="text-xl md:text-2xl whitespace-nowrap font-bold font-quicksand text-left pr-2 py-4 min-w-[10rem] md:min-w-[24rem]">
-                      Tidy Essential
-                    </th>
-                    <th className="text-bold text-center px-2 py-4">Essential</th>
-                    <th className="text-bold text-center px-2 py-4">Premium</th>
-                    <th className="text-bold text-center px-2 py-4">Advanced</th>
+                    <th className="text-xl md:text-2xl whitespace-nowrap font-bold font-quicksand text-left pr-2 py-4 min-w-[10rem] md:min-w-[24rem]"></th>
+                    <th className="text-bold text-center px-2 py-4">Återvinningsstart</th>
+                    <th className="text-bold text-center px-2 py-4">Miljömedveten</th>
+                    <th className="text-bold text-center px-2 py-4">Grön livsstil</th>
                   </tr>
                 </thead>
                 {/* Table body */}
@@ -33,98 +31,63 @@ export default function FeaturesTable() {
                   <tr className="border-t first:border-t-2 border-slate-200">
                     <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
                       <div className="flex items-center justify-between max-w-xs">
-                        <div>Monthly fees</div>
+                        <div>Månadsavgift</div>
                         {/* Tooltip */}
                         <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
+                          <div className="text-xs text-slate-100">Betalas via Swish.</div>
                         </Tooltip>
                       </div>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">$49/mo</td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">$79/mo</td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">$129/mo</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">229kr/mån</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">399kr/mån</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">599kr/mån</td>
                   </tr>
                   {/* Row */}
                   <tr className="border-t first:border-t-2 border-slate-200">
                     <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
                       <div className="flex items-center justify-between max-w-xs">
-                        <div>Free trial</div>
+                        <div>Upphämtningar per månad</div>
                         {/* Tooltip */}
                         <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
+                          <div className="text-xs text-slate-100">Hur ofta vi kommer och hämtar er återvinning.</div>
                         </Tooltip>
                       </div>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                    </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                    </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                    </td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">1</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">2</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">4</td>
                   </tr>
                   {/* Row */}
                   <tr className="border-t first:border-t-2 border-slate-200">
                     <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
                       <div className="flex items-center justify-between max-w-xs">
-                        <div>Startup Plan</div>
+                        <div>Pris per upphämtning</div>
                         {/* Tooltip */}
                         <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
+                          <div className="text-xs text-slate-100">Hur ofta vi kommer och hämtar er återvinning.</div>
                         </Tooltip>
                       </div>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                    </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                    </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                    </td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">229 kr</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">199 kr</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">149 kr</td>
                   </tr>
                   {/* Row */}
                   <tr className="border-t first:border-t-2 border-slate-200">
                     <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
                       <div className="flex items-center justify-between max-w-xs">
-                        <div>Contributors</div>
+                        <div>E-post påminnelse</div>
                         {/* Tooltip */}
                         <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
+                          <div className="text-xs text-slate-100">Vi skickar en påminnelse via e-post inför varje upphämtning.</div>
                         </Tooltip>
                       </div>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">Up to 2</td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">Up to 10</td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">Unlimited</td>
-                  </tr>
-                  {/* Row */}
-                  <tr className="border-t first:border-t-2 border-slate-200">
-                    <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
-                      <div className="flex items-center justify-between max-w-xs">
-                        <div>Virtual Desk</div>
-                        {/* Tooltip */}
-                        <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
-                        </Tooltip>
-                      </div>
+                    <td className="text-sm px-2 py-4 text-center font-medium">
+                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium"></td>
                     <td className="text-sm px-2 py-4 text-center font-medium">
                       <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -135,100 +98,22 @@ export default function FeaturesTable() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                     </td>
-                  </tr>
+                  </tr>{" "}
                   {/* Row */}
                   <tr className="border-t first:border-t-2 border-slate-200">
                     <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
                       <div className="flex items-center justify-between max-w-xs">
-                        <div>Incoming Transfers</div>
+                        <div>SMS påminnelse</div>
                         {/* Tooltip */}
                         <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
+                          <div className="text-xs text-slate-100">Vi skickar en påminnelse via SMS inför varje upphämtning. Valfritt.</div>
                         </Tooltip>
                       </div>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">20</td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">50</td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">Unlimited</td>
-                  </tr>
-                  {/* Row */}
-                  <tr className="border-t first:border-t-2 border-slate-200">
-                    <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
-                      <div className="flex items-center justify-between max-w-xs">
-                        <div>Automate Tasks</div>
-                        {/* Tooltip */}
-                        <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
-                        </Tooltip>
-                      </div>
-                    </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium"></td>
-                    <td className="text-sm px-2 py-4 text-center font-medium"></td>
                     <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      {/* <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                    </td>
-                  </tr>
-                  {/* Row */}
-                  <tr className="border-t first:border-t-2 border-slate-200">
-                    <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
-                      <div className="flex items-center justify-between max-w-xs">
-                        <div className="flex items-center space-x-2">
-                          <div>Analytics</div>
-                          <div className="inline-flex text-xs font-semibold py-px px-2 text-emerald-700 bg-emerald-200 rounded-full">Soon</div>
-                        </div>
-                        {/* Tooltip */}
-                        <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
-                        </Tooltip>
-                      </div>
-                    </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium"></td>
-                    <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"></svg>
-                    </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* Table (Tidy Advanced) */}
-            <div className="overflow-x-auto" data-aos="fade-up">
-              <table className="table-auto w-full border-b border-slate-200">
-                {/* Table header */}
-                <thead>
-                  <tr className="text-base sm:text-lg text-slate-800">
-                    <th className="text-xl md:text-2xl whitespace-nowrap font-bold font-quicksand text-left pr-2 py-4 min-w-[10rem] md:min-w-[24rem]">
-                      Tidy Advanced
-                    </th>
-                    <th className="text-bold text-center px-2 py-4 sm:invisible">Essential</th>
-                    <th className="text-bold text-center px-2 py-4 sm:invisible">Premium</th>
-                    <th className="text-bold text-center px-2 py-4 sm:invisible">Advanced</th>
-                  </tr>
-                </thead>
-                {/* Table body */}
-                <tbody>
-                  {/* Row */}
-                  <tr className="border-t first:border-t-2 border-slate-200">
-                    <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
-                      <div className="flex items-center justify-between max-w-xs">
-                        <div>Custom Labels</div>
-                        {/* Tooltip */}
-                        <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
-                        </Tooltip>
-                      </div>
-                    </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium">
-                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
+                      </svg> */}
                     </td>
                     <td className="text-sm px-2 py-4 text-center font-medium">
                       <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -245,14 +130,18 @@ export default function FeaturesTable() {
                   <tr className="border-t first:border-t-2 border-slate-200">
                     <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
                       <div className="flex items-center justify-between max-w-xs">
-                        <div>Visitor Access</div>
+                        <div>Prioriterad kundsupport</div>
                         {/* Tooltip */}
                         <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
+                          <div className="text-xs text-slate-100">Vi kommer att prioritera frågor och funderingar.</div>
                         </Tooltip>
                       </div>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium"></td>
+                    <td className="text-sm px-2 py-4 text-center font-medium">
+                      {/* <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg> */}
+                    </td>
                     <td className="text-sm px-2 py-4 text-center font-medium">
                       <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -268,15 +157,52 @@ export default function FeaturesTable() {
                   <tr className="border-t first:border-t-2 border-slate-200">
                     <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
                       <div className="flex items-center justify-between max-w-xs">
-                        <div>Traffic Tracking</div>
+                        <div>Personlig rådgivning</div>
                         {/* Tooltip */}
                         <Tooltip>
-                          <div className="text-xs text-slate-100">Keep team shipping simple and take control of your company.</div>
+                          <div className="text-xs text-slate-100">Tips för hållbarhet och återvinningsoptimering.</div>
                         </Tooltip>
                       </div>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center font-medium"></td>
-                    <td className="text-sm px-2 py-4 text-center font-medium"></td>
+                    <td className="text-sm px-2 py-4 text-center font-medium">
+                      {/* <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg> */}
+                    </td>
+                    <td className="text-sm px-2 py-4 text-center font-medium">
+                      {/* <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg> */}
+                    </td>
+                    <td className="text-sm px-2 py-4 text-center font-medium">
+                      <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                    </td>
+                  </tr>
+                  {/* Row */}
+                  <tr className="border-t first:border-t-2 border-slate-200">
+                    <td className="text-sm sm:text-base font-medium text-slate-800 pr-2 py-4">
+                      <div className="flex items-center justify-between max-w-xs">
+                        <div>Miljöcertifikat</div>
+                        {/* Tooltip */}
+                        <Tooltip>
+                          <div className="text-xs text-slate-100">
+                            Ett personligt certifikat att dela på sociala medier som bevis på din insatts för miljön.
+                          </div>
+                        </Tooltip>
+                      </div>
+                    </td>
+                    <td className="text-sm px-2 py-4 text-center font-medium">
+                      {/* <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg> */}
+                    </td>
+                    <td className="text-sm px-2 py-4 text-center font-medium">
+                      {/* <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg> */}
+                    </td>
                     <td className="text-sm px-2 py-4 text-center font-medium">
                       <svg className="w-3 h-3 fill-current text-emerald-500 inline-flex" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -290,8 +216,8 @@ export default function FeaturesTable() {
 
           {/* CTA */}
           <div className="text-center">
-            <Link className="btn text-white bg-green-600 hover:bg-green-700 group" href="/request-demo">
-              Request Demo{" "}
+            <Link className="btn text-white bg-green-600 hover:bg-green-700 group" href="/request">
+              Kom igång{" "}
               <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
             </Link>
           </div>

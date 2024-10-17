@@ -11,12 +11,12 @@ export default function FeaturesBlocks() {
             data-aos-id-blocks
           >
             {/* Lines decoration */}
-            <div className="absolute inset-0 -my-8 md:-my-12 pointer-events-none hidden md:flex" aria-hidden="true">
+            {/* <div className="absolute inset-0 -my-8 md:-my-12 pointer-events-none hidden md:flex" aria-hidden="true">
               <div className="h-full w-full border-l last:border-r odd:hidden lg:odd:block border-slate-100"></div>
               <div className="h-full w-full border-l last:border-r odd:hidden lg:odd:block border-slate-100"></div>
               <div className="h-full w-full border-l last:border-r odd:hidden lg:odd:block border-slate-100"></div>
               <div className="h-full w-full border-l last:border-r odd:hidden lg:odd:block border-slate-100"></div>
-            </div>
+            </div> */}
 
             {/* 1st item */}
             <div className="relative" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">

@@ -21,7 +21,7 @@ export default function HeroHome() {
               <p className="text-xl text-slate-400 mb-8">Slipp det ångestfyllda momentet i vardagen och låt oss hantera din källsortering.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div>
-                  <Link className="btn text-white bg-green-600 hover:bg-green-700 w-full group" href="/request-demo">
+                  <Link className="btn text-white bg-green-600 hover:bg-green-700 w-full group" href="/request">
                     Kom igång
                     <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
