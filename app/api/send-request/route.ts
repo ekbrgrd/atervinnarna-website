@@ -37,29 +37,29 @@ export async function POST(request: NextRequest) {
       to: recieverEmails,
       subject: "ÅTERVINNARNA UF: NY KUNDANMÄLAN",
       text: `
-      En ny kund har anmält sig till Återvinnarna! 
+    En ny kund har anmält sig till Återvinnarna! 
       
-      Här är deras uppgifter:
+    Här är deras uppgifter:
 
-      Namn: ${name}
-      E-post: ${email}
-      Telefon: ${phone}
-      Postort: ${city}
-      Postnummer: ${pcode}
-      Gatuadress: ${street}
-      Abonnemangsplan: ${plan}
+    Namn: ${name}
+    E-post: ${email}
+    Telefon: ${phone}
+    Postort: ${city}
+    Postnummer: ${pcode}
+    Gatuadress: ${street}
+    Abonnemangsplan: ${plan}
 
-      Du kan copy/paste nedanstående rad i kunddatabasen vilket autoformaterar till en ny rad:
+    Du kan copy/paste nedanstående rad i kunddatabasen vilket autoformaterar till en ny rad:
 
-      ${name}, ${email}, ${phone},  ${street}, ${pcode}, ${city}, ${plan}, Nyanmäld - inväntar kontakt
+    ${name}, ${email}, ${phone},  ${street}, ${pcode}, ${city}, ${plan}, Nyanmäld - inväntar kontakt
 
-      Kontrollera att ingen annan redan har registrerat kunden i databasen innan du lägger in den.
+    Kontrollera att ingen annan redan har registrerat kunden i databasen innan du lägger in den.
 
-      FAN VA KUL MED NY KUND! TAGGA! 🎉🎉🎉
+    FAN VA KUL MED NY KUND! TAGGA! 🎉🎉🎉
 
-      Allt gott,
-      Återvinnarna System🌱
-      `,
+    Allt gott,
+    Återvinnarna System🌱
+    `.trim(),
     });
     return NextResponse.json({ message: "Email sent successfully" }, { status: 200 });
   } catch (error) {
