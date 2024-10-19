@@ -1,4 +1,3 @@
-import Head from "next/head";
 import "./css/style.css";
 
 import { Inter, Quicksand } from "next/font/google";

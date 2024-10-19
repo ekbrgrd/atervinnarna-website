@@ -11,7 +11,6 @@ export const metadata = {
 };
 
 import Hero from "@/components/hero-blog";
-import Tags from "@/components/blog-tags";
 
 export default function Blog() {
   const allBlogs = getBlogPosts();

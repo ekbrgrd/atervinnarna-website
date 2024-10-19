@@ -1,7 +1,4 @@
-import content from "@/app/(default)/about/content";
 import Accordion from "@/components/utils/accordion";
-import { title } from "process";
-import faqs from "./faqs";
 
 interface FaqItem {
   title: string;

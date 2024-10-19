@@ -66,6 +66,7 @@ export default function Form() {
                 <div className="space-y-4">
                   <form.Field
                     name="name"
+                    // eslint-disable-next-line
                     children={(field) => (
                       <div>
                         <label className="block text-sm font-medium mb-1" htmlFor="name">
@@ -87,6 +88,7 @@ export default function Form() {
                   />
                   <form.Field
                     name="email"
+                    // eslint-disable-next-line
                     children={(field) => (
                       <div>
                         <label className="block text-sm font-medium mb-1" htmlFor="email">
@@ -107,6 +109,7 @@ export default function Form() {
                   />
                   <form.Field
                     name="phone"
+                    // eslint-disable-next-line
                     children={(field) => (
                       <div>
                         <label className="block text-sm font-medium mb-1" htmlFor="phone">
@@ -130,6 +133,7 @@ export default function Form() {
                   <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                     <form.Field
                       name="city"
+                      // eslint-disable-next-line
                       children={(field) => (
                         <div className="sm:w-1/2">
                           <label className="block text-sm font-medium mb-1" htmlFor="city">
@@ -151,6 +155,7 @@ export default function Form() {
                     />
                     <form.Field
                       name="pcode"
+                      // eslint-disable-next-line
                       children={(field) => (
                         <div className="sm:w-1/2">
                           <label className="block text-sm font-medium mb-1" htmlFor="pcode">
@@ -173,6 +178,7 @@ export default function Form() {
                   </div>
                   <form.Field
                     name="street"
+                    // eslint-disable-next-line
                     children={(field) => (
                       <div>
                         <label className="block text-sm font-medium mb-1" htmlFor="street">
@@ -194,6 +200,7 @@ export default function Form() {
                   />
                   <form.Field
                     name="plan"
+                    // eslint-disable-next-line
                     children={(field) => (
                       <div>
                         <label className="block text-sm font-medium mb-1" htmlFor="country">
@@ -219,6 +226,7 @@ export default function Form() {
                 <div className="mt-6">
                   <form.Subscribe
                     selector={(state) => [state.canSubmit, state.isSubmitting]}
+                    // eslint-disable-next-line
                     children={([canSubmit, isSubmitting]) => (
                       <button className="btn-sm w-full text-sm text-white bg-green-600 hover:bg-green-700 group" type="submit" disabled={!canSubmit}>
                         {isSubmitting ? (

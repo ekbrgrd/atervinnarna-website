@@ -5,6 +5,7 @@ import PostImage from "./image";
 import PostSeparator from "@/components/separator";
 import rehypePrettyCode from "rehype-pretty-code";
 
+/* eslint-disable */
 const transformToSlug = (input: string) => {
   return input
     .toLowerCase()

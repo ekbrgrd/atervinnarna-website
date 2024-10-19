@@ -11,7 +11,7 @@ type ModalProps = {
   handleClose: () => void;
 };
 
-export default function Modal({ children, id, ariaLabel, show, handleClose }: ModalProps) {
+export default function Modal({ children, /* id, */ ariaLabel, show, handleClose }: ModalProps) {
   const modalContent = useRef<HTMLDivElement>(null);
 
   // close the modal on click outside

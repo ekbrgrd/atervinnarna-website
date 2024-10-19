@@ -5,7 +5,6 @@ export const metadata = {
 
 import Image from "next/image";
 import PageBg from "@/public/images/request-demo-bg.jpg";
-import CustomerAvatar from "@/public/images/customer-avatar-04.jpg";
 import Form from "./form";
 
 export default function RequestDemo() {

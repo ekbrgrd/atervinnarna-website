@@ -1,10 +1,7 @@
 import Image from "next/image";
 import AvatarImageKilean from "@/public/images/avatar-kilean.jpg";
 import AvatarImageMans from "@/public/images/avatar-mans.jpg";
-import AvatarImage03 from "@/public/images/support-avatar-03.jpg";
-import AvatarImage04 from "@/public/images/support-avatar-04.jpg";
-import AvatarImage05 from "@/public/images/support-avatar-05.jpg";
-import AvatarImage06 from "@/public/images/support-avatar-06.jpg";
+
 import Link from "next/link";
 
 export default function SupportContent() {

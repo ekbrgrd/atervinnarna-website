@@ -16,7 +16,7 @@ export default function Accordion({ children, tag = "li", title, active = false 
 
   useEffect(() => {
     setAccordionOpen(active);
-  }, [accordion]);
+  }, [accordion, active]);
 
   return (
     <Component>

@@ -8,11 +8,11 @@ export default function Target() {
         <div className="py-12 md:py-20 border-t border-slate-200">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-quicksand text-slate-800 mb-3">We're experts and brand creators</h2>
-            <p className="text-xl text-slate-500">
+            {/* <h2 className="h2 font-quicksand text-slate-800 mb-3">We're experts and brand creators</h2> */}
+            {/*  <p className="text-xl text-slate-500">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at
               volutpat diam ut venenatis.
-            </p>
+            </p> */}
           </div>
 
           {/* Section content */}
@@ -27,9 +27,9 @@ export default function Target() {
                     </svg>
                     <div className="h2 font-quicksand text-slate-800">79%</div>
                   </div>
-                  <div className="text-slate-500 text-lg">
+                  {/* <div className="text-slate-500 text-lg">
                     Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.
-                  </div>
+                  </div> */}
                 </li>
                 <li>
                   <div className="flex items-center mb-4">
@@ -38,9 +38,9 @@ export default function Target() {
                     </svg>
                     <div className="h2 font-quicksand text-slate-800">1M+</div>
                   </div>
-                  <div className="text-slate-500 text-lg">
+                  {/* <div className="text-slate-500 text-lg">
                     Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.
-                  </div>
+                  </div> */}
                 </li>
                 <li>
                   <div className="flex items-center mb-4">
@@ -49,9 +49,9 @@ export default function Target() {
                     </svg>
                     <div className="h2 font-quicksand text-slate-800">500K</div>
                   </div>
-                  <div className="text-slate-500 text-lg">
+                  {/* <div className="text-slate-500 text-lg">
                     Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.
-                  </div>
+                  </div> */}
                 </li>
               </ul>
             </div>

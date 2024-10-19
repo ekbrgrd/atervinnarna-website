@@ -1,8 +1,6 @@
 import Link from "next/link";
-import path from "path";
-import React, { version } from "react";
-import { g } from "shiki/types/wasm-dynamic.mjs";
-import style from "styled-jsx/style";
+
+import React from "react";
 
 export default function LogoText() {
   return (

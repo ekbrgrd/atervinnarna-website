@@ -5,7 +5,7 @@ export default function Clients02() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-quicksand text-slate-100">We're fortunate to have incredible investors.</h2>
+            {/* <h2 className="h2 font-quicksand text-slate-100">We're fortunate to have incredible investors.</h2> */}
           </div>
 
           {/* Items */}

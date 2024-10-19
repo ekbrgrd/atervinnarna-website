@@ -15,7 +15,7 @@ export default function HeroWol() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-16">
             <h1 className="h1 font-quicksand text-slate-100 mb-4">Join 70K+ companies and investors</h1>
-            <p className="text-xl text-slate-400">We're proud to have played a part in these amazing journeys.</p>
+            {/*  <p className="text-xl text-slate-400">We're proud to have played a part in these amazing journeys.</p> */}
           </div>
 
           {/* Hero image */}

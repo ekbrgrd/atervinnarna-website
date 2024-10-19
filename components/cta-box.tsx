@@ -1,6 +1,3 @@
-import Image from "next/image";
-import CtaImage from "@/public/images/cta-image.png";
-
 export default function CtaBox() {
   return (
     <div data-aos="fade-up">

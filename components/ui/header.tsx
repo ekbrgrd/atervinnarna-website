@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Logo from "./logo";
-import Dropdown from "@/components/utils/dropdown";
+/* import Logo from "./logo";
+import Dropdown from "@/components/utils/dropdown"; */
 import MobileMenu from "./mobile-menu";
 import LogoText from "./logo-text";
 

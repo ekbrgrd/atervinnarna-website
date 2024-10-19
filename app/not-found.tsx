@@ -22,10 +22,10 @@ export default function NotFound() {
                 </div>
                 <h1 className="h1 font-quicksand text-slate-800 mb-4">Oops!</h1>
               </div>
-              <p className="text-xl text-slate-500">We couldn't find the page you're looking for.</p>
+              <p className="text-xl text-slate-500">Sidan finns inte.</p>
               <div className="mt-8">
                 <Link className="btn text-white bg-green-600 hover:bg-green-700" href="/">
-                  Back Home
+                  Tillbaka hem
                 </Link>
               </div>
             </div>
