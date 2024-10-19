@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Tidy",
-  description: "Page description",
+  title: "Hem - Återvinnarna",
+  description: "Välkommen till Återvinnarna! Vi erbjuder en enkel och hållbar lösning för återvinning.",
 };
 
 import Hero from "@/components/hero-home";

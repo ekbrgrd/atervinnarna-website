@@ -25,8 +25,11 @@ export default function AboutContent() {
               </p>
               <h2 className="h4 font-quicksand text-slate-800 mb-4">Kontakta oss</h2>
               <p className="mb-8">
-                Har du frågor eller funderingar? Vi hör gärna från dig! Du kan nå oss på [kontaktuppgifter], eller så kan du följa vår resa på våra sociala
-                medier för att se hur vi utvecklar vår tjänst och vårt företag.
+                Har du frågor eller funderingar? Vi hör gärna från dig! Du kan nå oss på{" "}
+                <a href="mailto:support@atervinnarna.se" className="underline">
+                  support@atervinnarna.se
+                </a>
+                , eller så kan du följa vår resa på våra sociala medier för att se hur vi utvecklar vår tjänst och vårt företag.
               </p>
             </div>
           </div>

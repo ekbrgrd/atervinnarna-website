@@ -25,7 +25,7 @@ export default function FeaturesHome03() {
           <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-10 md:gap-y-10 items-start">
             {/* 1st article */}
             <article data-aos="fade-up">
-              <a className="relative block group mt-8 mb-4" href="#0">
+              <div className="relative block group mt-8 mb-4">
                 <div
                   className="absolute inset-0 pointer-events-none border-2 border-slate-500 opacity-20 translate-x-4 -translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-300 ease-out -z-10"
                   aria-hidden="true"
@@ -47,18 +47,16 @@ export default function FeaturesHome03() {
                     />
                   </svg>
                 </div>
-              </a>
+              </div>
               <h3 className="h4 font-quicksand mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-green-100" href="#0">
-                  Välj paket och schema
-                </a>
+                <div className="text-slate-800 hover:underline hover:decoration-green-100">Välj abonnemangsplan</div>
               </h3>
-              <p className="text-lg text-slate-500">Välj ett återvinningspaket och bestäm hur ofta du vill ha upphämtning. Registrera dig smidigt online.</p>
+              <p className="text-lg text-slate-500">Välj den abonnemangsplan som passa dig bäst. Registrera dig sedan smidigt online.</p>
             </article>
 
             {/* 2nd article */}
             <article data-aos="fade-up" data-aos-delay="100">
-              <a className="relative block group mt-8 mb-4" href="#0">
+              <div className="relative block group mt-8 mb-4">
                 <div
                   className="absolute inset-0 pointer-events-none border-2 border-slate-500 opacity-20 translate-x-4 -translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-300 ease-out -z-10"
                   aria-hidden="true"
@@ -80,18 +78,16 @@ export default function FeaturesHome03() {
                     />
                   </svg>
                 </div>
-              </a>
+              </div>
               <h3 className="h4 font-quicksand mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-green-100" href="#0">
-                  Vi levererar lådan
-                </a>
+                <div className="text-slate-800 hover:underline hover:decoration-green-100">Vi levererar utomhuslådan</div>
               </h3>
-              <p className="text-lg text-slate-500">Efter registrering tar vi kontakt och levererar dina återvinningslådor till dörren.</p>
+              <p className="text-lg text-slate-500">Efter registrering tar vi kontakt och levererar din återvinnignslåda till dörren.</p>
             </article>
 
             {/* 3rd article */}
             <article data-aos="fade-up" data-aos-delay="200">
-              <a className="relative block group mt-8 mb-4" href="#0">
+              <div className="relative block group mt-8 mb-4">
                 <div
                   className="absolute inset-0 pointer-events-none border-2 border-slate-500 opacity-20 translate-x-4 -translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-300 ease-out -z-10"
                   aria-hidden="true"
@@ -113,15 +109,11 @@ export default function FeaturesHome03() {
                     />
                   </svg>
                 </div>
-              </a>
+              </div>
               <h3 className="h4 font-quicksand mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-green-100" href="#0">
-                  Vi hämtar regelbundet
-                </a>
+                <div className="text-slate-800 hover:underline hover:decoration-green-100">Regelbunden upphämtning</div>
               </h3>
-              <p className="text-lg text-slate-500">
-                Ditt schema sköts automatiskt, och vi hämtar din återvinning när det är dags, så att du kan tänka på annat.
-              </p>
+              <p className="text-lg text-slate-500">Hanteringen sker automatiskt. Vi hämtar din återvinning när det är dags så att du kan tänka på annat.</p>
             </article>
           </div>
         </div>

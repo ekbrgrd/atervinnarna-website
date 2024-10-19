@@ -100,7 +100,7 @@ export default function FeaturesPricing() {
                 <use fill="#000" filter="url(#fbp2-e)" xlinkHref="#fbp2-f" />
                 <use fill="url(#fbp2-g)" xlinkHref="#fbp2-f" />
               </svg>
-              <h3 className="h4 font-quicksand mb-2">Stora objekt-hämtning</h3>
+              <h3 className="h4 font-quicksand mb-2">Hämtning av större saker</h3>
               <p className="text-lg text-slate-500 mb-3">Har du skrymmande föremål som möbler eller vitvaror som behöver återvinnas? Vi löser.</p>
               <div className="font-medium text-slate-800">Från 249 kr</div>
             </div>

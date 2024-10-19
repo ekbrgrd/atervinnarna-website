@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "About - Tidy",
-  description: "Page description",
+  title: "Om oss - Återvinnarna",
+  description: "Läs mer om Återvinnarna och vårt arbete för en hållbar framtid.",
 };
 
 import Hero from "@/components/hero-about";
@@ -20,7 +20,7 @@ export default function About() {
       {/* <Team /> */}
       <TeamMembers />
       {/* <Clients /> */}
-      <Cta />
+      {/* <Cta /> */}
     </>
   );
 }

@@ -6,8 +6,8 @@ import PostItem from "@/components/post-item";
 import CtaBox from "@/components/cta-box";
 
 export const metadata = {
-  title: "Blog - Tidy",
-  description: "Page description",
+  title: "Blogg - Återvinnarna",
+  description: "Läs våra senaste blogginlägg om återvinning, miljö och hållbarhet.",
 };
 
 import Hero from "@/components/hero-blog";
@@ -25,7 +25,7 @@ export default function Blog() {
   const featuredPost = allBlogs[0];
   const latestPosts = allBlogs.slice(1, 4);
   const popularPosts = allBlogs.slice(4, 7);
-  const productPosts = [allBlogs[0], allBlogs[1], allBlogs[2]];
+  const productPosts = allBlogs.slice(7, 10);
 
   return (
     <>
@@ -140,12 +140,12 @@ export default function Blog() {
             </div>
 
             {/* See All Articles */}
-            <div className="text-center">
+            {/* <div className="text-center">
               <button className="btn text-white bg-green-600 hover:bg-green-700 group">
                 See All Articles{" "}
                 <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Pricing - Tidy",
-  description: "Page description",
+  title: "Priser - Återvinnarna",
+  description: "Se våra priser för hantering av återvinning.",
 };
 
 import Hero from "@/components/hero-pricing";

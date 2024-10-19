@@ -1,9 +1,6 @@
 "use client";
 
-import Link from "next/link";
 import { useForm } from "@tanstack/react-form";
-import target from "@/components/target";
-import { useEffect } from "react";
 import LogoText from "@/components/ui/logo-text";
 
 interface FormValues {
@@ -26,7 +23,20 @@ export default function Form() {
   const form = useForm<FormValues>({
     defaultValues: { name: "", email: "", phone: "", city: "", pcode: "", street: "", plan: Plan.Miljomedveten },
     onSubmit: async ({ value }) => {
-      console.log(value);
+      const res = await fetch("/api/send-request", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(value),
+      });
+
+      if (res.ok) {
+        form.reset();
+        alert("Anmälan mottagen! Vi kommer kontakta dig inom kort.");
+      } else {
+        alert("Något gick fel. Försök igen.");
+      }
     },
   });
 
@@ -207,10 +217,23 @@ export default function Form() {
                   />
                 </div>
                 <div className="mt-6">
-                  <button className="btn-sm w-full text-sm text-white bg-green-600 hover:bg-green-700 group" type="submit">
-                    Skicka{" "}
-                    <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </button>
+                  <form.Subscribe
+                    selector={(state) => [state.canSubmit, state.isSubmitting]}
+                    children={([canSubmit, isSubmitting]) => (
+                      <button className="btn-sm w-full text-sm text-white bg-green-600 hover:bg-green-700 group" type="submit" disabled={!canSubmit}>
+                        {isSubmitting ? (
+                          "Skickar..."
+                        ) : (
+                          <>
+                            Skicka anmälan{" "}
+                            <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                              -&gt;
+                            </span>
+                          </>
+                        )}
+                      </button>
+                    )}
+                  />
                 </div>
                 <div className="mt-5">
                   <label className="flex items-start">

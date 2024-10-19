@@ -60,7 +60,7 @@ export default async function SinglePost({ params }: { params: { slug: string } 
                       <span className="tracking-normal text-green-600 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">
                         &lt;-
                       </span>{" "}
-                      Back to Blog
+                      Tillbaka till bloggen
                     </Link>
                     <h1 className="h2 font-quicksand text-slate-100 mb-6">{post.metadata.title}</h1>
                   </div>
@@ -135,9 +135,9 @@ export default async function SinglePost({ params }: { params: { slug: string } 
         </div>
       </article>
 
-      <Separator />
+      {/* <Separator />
 
-      <Newsletter />
+      <Newsletter /> */}
     </>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function PricingTables() {
@@ -55,10 +56,10 @@ export default function PricingTables() {
             </li>
           </ul>
           <div className="p-3 rounded bg-slate-50">
-            <a className="btn-sm text-white bg-green-600 hover:bg-green-700 w-full group" href="#0">
+            <Link className="btn-sm text-white bg-green-600 hover:bg-green-700 w-full group" href="/request">
               Kom igång{" "}
               <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -98,10 +99,10 @@ export default function PricingTables() {
             </li>
           </ul>
           <div className="p-3 rounded bg-slate-50">
-            <a className="btn-sm text-white bg-green-600 hover:bg-green-700 w-full group" href="#0">
+            <Link className="btn-sm text-white bg-green-600 hover:bg-green-700 w-full group" href="/request">
               Kom igång{" "}
               <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -137,10 +138,10 @@ export default function PricingTables() {
             </li>
           </ul>
           <div className="p-3 rounded bg-slate-50">
-            <a className="btn-sm text-white bg-green-600 hover:bg-green-700 w-full group" href="#0">
+            <Link className="btn-sm text-white bg-green-600 hover:bg-green-700 w-full group" href="/request">
               Kom igång{" "}
               <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

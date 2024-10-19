@@ -13,7 +13,7 @@ export default function HeroBlog() {
               Lär dig allt om hållbarhet, källsortering och hur vår tjänst hjälper dig att bidra till en grönare framtid, direkt från ditt hem.
             </p>
             {/* Subscribe form */}
-            <form>
+            {/*  <form>
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md">
                 <input
                   type="email"
@@ -23,9 +23,8 @@ export default function HeroBlog() {
                 />
                 <button className="btn text-white bg-green-600 hover:bg-green-700">Prenumerera</button>
               </div>
-              {/* Success message */}
-              {/* <p class="text-xs text-slate-500 mt-3 italic">Thanks for subscribing!</p> */}
-            </form>
+              
+            </form> */}
           </div>
         </div>
       </div>

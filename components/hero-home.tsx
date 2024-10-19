@@ -1,6 +1,8 @@
 import Link from "next/link";
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo01 from "@/components/modal-video-01";
+import HomeHero from "@/public/images/hero-home.jpg";
+import Image from "next/image";
 
 export default function HeroHome() {
   return (
@@ -26,24 +28,24 @@ export default function HeroHome() {
                     <span className="tracking-normal text-green-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
                 </div>
-                <div>
+                {/* <div>
                   <Link className="btn text-white bg-slate-700 hover:bg-slate-800 w-full" href="#0">
                     Läs om tjänsten
                   </Link>
+                </div> */}
+              </div>
+            </div>
+            <div className="shrink-0" data-aos="fade-left">
+              <div className="flex justify-center items-center">
+                <div className="relative">
+                  <div
+                    className="absolute inset-0 pointer-events-none border-2 border-slate-700 mt-3 ml-3 translate-x-4 translate-y-4 -z-10"
+                    aria-hidden="true"
+                  ></div>
+                  <Image src={HomeHero} width={540} height={405} alt={"Man som återvinner"} />
                 </div>
               </div>
             </div>
-
-            {/* Hero image */}
-            <ModalVideo01
-              thumb={VideoThumb}
-              thumbWidth={540}
-              thumbHeight={405}
-              thumbAlt="Modal video thumbnail"
-              video="/videos/video.mp4"
-              videoWidth={1920}
-              videoHeight={1080}
-            />
           </div>
         </div>
       </div>

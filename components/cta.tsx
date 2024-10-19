@@ -14,7 +14,7 @@ export default function Cta() {
 
             <div className="relative">
               <h2 className="h2 font-quicksand text-slate-800 mb-4">
-                Säg hejdå till köer, illaluktande soptippar och <span className="text-emerald-500">krångel</span>.
+                Skippa dåligt samvete, spara tid och slipp <span className="text-emerald-500">krångel</span>.
               </h2>
               <p className="text-xl text-slate-500 mb-8">
                 Låt oss ta hand om din återvinning med smidiga, flexibla planer och miljövänliga lösningar – allt med personlig service direkt vid din dörr.

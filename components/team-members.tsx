@@ -1,13 +1,13 @@
 import Image from "next/image";
-import TeamMemberImage01 from "@/public/images/team-member-01.jpg";
-import TeamMemberImage02 from "@/public/images/team-member-02.jpg";
-import TeamMemberImage03 from "@/public/images/team-member-03.jpg";
-import TeamMemberImage04 from "@/public/images/team-member-04.jpg";
-import TeamMemberImage05 from "@/public/images/team-member-05.jpg";
+import TeamMemberImageTruls from "@/public/images/team-member-truls.jpg";
+import TeamMemberImageErik from "@/public/images/team-member-erik.jpg";
+import TeamMemberImageMans from "@/public/images/team-member-mans.jpg";
+import TeamMemberImageKilean from "@/public/images/team-member-kilean.jpg";
+import TeamMemberImageAxel from "@/public/images/team-member-axel.jpg";
 
 export default function TeamMembers() {
   return (
-    <section>
+    <section className="bg-slate-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
@@ -23,7 +23,7 @@ export default function TeamMembers() {
             {/* 1st member */}
             <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
               <div className="inline-flex mb-4">
-                <Image className="rounded-full" src={TeamMemberImage01} width={120} height={120} alt="Member 01" />
+                <Image className="rounded-full" src={TeamMemberImageTruls} width={120} height={120} alt="Member truls" />
               </div>
               <h4 className="h4 font-quicksand text-slate-800 mb-2">Truls Alexandersson</h4>
               <div className="font-medium text-green-600">VD</div>
@@ -32,7 +32,7 @@ export default function TeamMembers() {
             {/* 2nd member */}
             <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={100}>
               <div className="inline-flex mb-4">
-                <Image className="rounded-full" src={TeamMemberImage02} width={120} height={120} alt="Member 02" />
+                <Image className="rounded-full" src={TeamMemberImageErik} width={120} height={120} alt="Member erik" />
               </div>
               <h4 className="h4 font-quicksand text-slate-800 mb-2">Erik Bergegård</h4>
               <div className="font-medium text-green-600">Säljchef</div>
@@ -41,7 +41,7 @@ export default function TeamMembers() {
             {/* 3rd member */}
             <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={200}>
               <div className="inline-flex mb-4">
-                <Image className="rounded-full" src={TeamMemberImage03} width={120} height={120} alt="Member 03" />
+                <Image className="rounded-full" src={TeamMemberImageMans} width={120} height={120} alt="Member mans" />
               </div>
               <h4 className="h4 font-quicksand text-slate-800 mb-2">Måns Oxelström</h4>
               <div className="font-medium text-green-600">Produktchef</div>
@@ -50,7 +50,7 @@ export default function TeamMembers() {
             {/* 4th member */}
             <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={300}>
               <div className="inline-flex mb-4">
-                <Image className="rounded-full" src={TeamMemberImage04} width={120} height={120} alt="Member 04" />
+                <Image className="rounded-full" src={TeamMemberImageKilean} width={120} height={120} alt="Member kilean" />
               </div>
               <h4 className="h4 font-quicksand text-slate-800 mb-2">Kilean Egler</h4>
               <div className="font-medium text-green-600">Ekonomichef</div>
@@ -59,7 +59,7 @@ export default function TeamMembers() {
             {/* 5th member */}
             <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={400}>
               <div className="inline-flex mb-4">
-                <Image className="rounded-full" src={TeamMemberImage05} width={120} height={120} alt="Member 05" />
+                <Image className="rounded-full" src={TeamMemberImageAxel} width={120} height={120} alt="Member axel" />
               </div>
               <h4 className="h4 font-quicksand text-slate-800 mb-2">Axel Hörgren</h4>
               <div className="font-medium text-green-600">Marknadschef</div>
