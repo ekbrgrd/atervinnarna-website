@@ -213,9 +213,9 @@ export default function Form() {
                           onChange={(e) => field.handleChange(e.target.value as Plan)}
                           value={field.state.value}
                         >
-                          <option value={Plan.Atervinningsstart}>{Plan.Atervinningsstart} - 229 kr/mån - 1 ggr/mån</option>
+                          <option value={Plan.Atervinningsstart}>{Plan.Atervinningsstart} - 199 kr/mån - 1 ggr/mån</option>
                           <option defaultChecked value={Plan.Miljomedveten}>
-                            {Plan.Miljomedveten} - 399 kr/mån - 2 ggr/mån
+                            {Plan.Miljomedveten} - 349 kr/mån - 2 ggr/mån
                           </option>
                           <option value={Plan.GronLivsstil}>{Plan.GronLivsstil} - 599 kr/mån - 4 ggr/mån</option>
                         </select>

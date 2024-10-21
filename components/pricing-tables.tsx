@@ -29,7 +29,7 @@ export default function PricingTables() {
           <div className="mb-4 pb-4 border-b border-slate-200">
             <div className="text-lg font-semibold text-slate-800 mb-1">Återvinningsstart</div>
             <div className="inline-flex items-baseline mb-3">
-              <span className="h2 leading-7 font-quicksand text-slate-800">229 kr{/* {annual ? "49" : "55"} */}</span>
+              <span className="h2 leading-7 font-quicksand text-slate-800">199 kr{/* {annual ? "49" : "55"} */}</span>
               <span className="font-medium text-slate-400">/månad</span>
             </div>
             <div className="text-slate-500">Perfekt för hushåll som vill börja göra skillnad.</div>
@@ -71,7 +71,7 @@ export default function PricingTables() {
           <div className="mb-4 pb-4 border-b border-slate-200">
             <div className="text-lg font-semibold text-slate-800 mb-1">Miljömedveten</div>
             <div className="inline-flex items-baseline mb-3">
-              <span className="h2 leading-7 font-quicksand text-slate-800">399 kr</span>
+              <span className="h2 leading-7 font-quicksand text-slate-800">349 kr</span>
               <span className="font-medium text-slate-400">/månad</span>
             </div>
             <div className="text-slate-500">För dig som vill ha mer frekvent upphämtning, med extra fördelar.</div>

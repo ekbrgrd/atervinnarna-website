@@ -38,8 +38,8 @@ export default function FeaturesTable() {
                         </Tooltip>
                       </div>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">229kr/mån</td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">399kr/mån</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">199kr/mån</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">349kr/mån</td>
                     <td className="text-sm px-2 py-4 text-center italic text-slate-800">599kr/mån</td>
                   </tr>
                   {/* Row */}
@@ -68,8 +68,8 @@ export default function FeaturesTable() {
                         </Tooltip>
                       </div>
                     </td>
-                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">229 kr</td>
                     <td className="text-sm px-2 py-4 text-center italic text-slate-800">199 kr</td>
+                    <td className="text-sm px-2 py-4 text-center italic text-slate-800">175 kr</td>
                     <td className="text-sm px-2 py-4 text-center italic text-slate-800">149 kr</td>
                   </tr>
                   {/* Row */}
