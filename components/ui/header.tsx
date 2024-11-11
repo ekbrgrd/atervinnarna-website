@@ -20,6 +20,14 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
             <ul className="flex grow justify-start flex-wrap items-center">
               <li>
                 <Link
+                  href="/services"
+                  className="font-medium text-slate-800 hover:text-green-600 dark:text-slate-300 dark:hover:text-green-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Vår tjänst
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/pricing"
                   className="font-medium text-slate-800 hover:text-green-600 dark:text-slate-300 dark:hover:text-green-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >

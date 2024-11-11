@@ -13,14 +13,13 @@ export default function FeaturesHome03() {
       ></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-12 md:py-20 mb-10">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-quicksand text-slate-100">
               Enkel återvinning, <br /> direkt vid din dörr
             </h2>
           </div>
-
           {/* Section content */}
           <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-10 md:gap-y-10 items-start">
             {/* 1st article */}
@@ -115,7 +114,7 @@ export default function FeaturesHome03() {
               </h3>
               <p className="text-lg text-slate-500">Hanteringen sker automatiskt. Vi hämtar din återvinning när det är dags så att du kan tänka på annat.</p>
             </article>
-          </div>
+          </div>{" "}
         </div>
       </div>
     </section>
