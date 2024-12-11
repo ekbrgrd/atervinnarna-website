@@ -12,7 +12,7 @@ export default function CtaPricing() {
             <div className="absolute top-0 left-0 ml-6 -mt-4">
               <div className="inline-flex text-sm font-semibold py-1 px-3 text-emerald-700 bg-emerald-200 rounded-full">Viktigt</div>
             </div>
-            <div className="h4 font-quicksand text-center lg:text-left mb-4 lg:mb-0">För att komma igång tillkommer en avgift på 499 kr för utomhuslådan.</div>
+            <div className="h4 font-quicksand text-center lg:text-left mb-4 lg:mb-0">Kampanj! Just nu är startavgiften 0 kr, och om du registrerar dig innan jul hämtar vi din julgran!</div>
             <div className="p-3 rounded bg-slate-50">
               <Link className="btn-sm text-white bg-green-600 hover:bg-green-700 group" href="/request">
                 Redo att återvinna?{" "}
